@@ -1,0 +1,72 @@
+Username : nimaaaa
+Password : zn13792000
+Created At : 2020/05/29 02:47:54
+
+Menu:Collections;current deck is not ready for playing At: 2020/05/29 02:47:58
+Card filter:Mana to 0 At: 2020/05/29 02:48:07
+Card filter:Mana to 1 At: 2020/05/29 02:48:07
+Card filter:Mana to 1 At: 2020/05/29 02:48:07
+Card filter:Mana to 1 At: 2020/05/29 02:48:08
+Card filter:Mana to 2 At: 2020/05/29 02:48:08
+Card filter:Mana to 2 At: 2020/05/29 02:48:09
+Card filter:Mana to 2 At: 2020/05/29 02:48:10
+Card filter:Mana to 1 At: 2020/05/29 02:48:10
+Card filter:Mana to 1 At: 2020/05/29 02:48:10
+All cards panel owned Cards filter:Not Owned At: 2020/05/29 02:48:12
+Card filter:Mana to 1 At: 2020/05/29 02:48:15
+Card filter:Mana to 2 At: 2020/05/29 02:48:15
+Card filter:Mana to 2 At: 2020/05/29 02:48:15
+Card filter:Mana to 2 At: 2020/05/29 02:48:16
+Card filter:Mana to 3 At: 2020/05/29 02:48:16
+Card filter:Mana to 3 At: 2020/05/29 02:48:16
+Direct buy:Silverback Patriarch At: 2020/05/29 02:48:17
+Card selected:Learn Draconic At: 2020/05/29 02:48:33
+Back button:Clicked At: 2020/05/29 02:48:36
+Menu:Collections At: 2020/05/29 02:48:38
+Back button:back to main menu At: 2020/05/29 02:48:41
+exiting game At: 2020/05/29 02:48:42
+
+Login At:2020/05/29 02:48:58
+Menu:Collections;current deck is not ready for playing At: 2020/05/29 02:49:04
+All cards panel CardClass filter:Hunter At: 2020/05/29 02:49:07
+All cards panel owned Cards filter:Not Owned At: 2020/05/29 02:49:08
+All cards panel CardClass filter:Paladin At: 2020/05/29 02:49:11
+All cards panel CardClass filter:Warlock At: 2020/05/29 02:49:12
+All cards panel CardClass filter:Rogue At: 2020/05/29 02:49:14
+Panel:Decks At: 2020/05/29 02:49:15
+Panel:Create deck At: 2020/05/29 02:49:21
+Hero selected:Paladin At: 2020/05/29 02:49:27
+Create button:clicked At: 2020/05/29 02:49:36
+Deck created:paladin 1 At: 2020/05/29 02:49:36
+Deck selected:paladin 1 At: 2020/05/29 02:49:40
+Deck selected:paladin 1 At: 2020/05/29 02:49:40
+Add Card Button:Clicked At: 2020/05/29 02:49:49
+Panel:Add card panel At: 2020/05/29 02:49:49
+back button:clicked At: 2020/05/29 02:49:51
+Panel:All Cards At: 2020/05/29 02:49:53
+All cards panel CardClass filter:Paladin At: 2020/05/29 02:49:55
+Direct buy:Consecration At: 2020/05/29 02:49:57
+Card selected:Consecration At: 2020/05/29 02:50:06
+Buy button:Clicked At: 2020/05/29 02:50:08
+Buy button:Clicked At: 2020/05/29 02:50:12
+Buy:Successful At: 2020/05/29 02:50:13
+Back button:Clicked At: 2020/05/29 02:50:19
+Menu:Collections At: 2020/05/29 02:50:20
+All cards panel owned Cards filter:Owned At: 2020/05/29 02:50:23
+Panel:Decks At: 2020/05/29 02:50:27
+Add Card Button:Clicked At: 2020/05/29 02:50:33
+Panel:Add card panel At: 2020/05/29 02:50:33
+Card selected:Consecration At: 2020/05/29 02:50:36
+Add button:clicked At: 2020/05/29 02:50:37
+Card added:Consecration At: 2020/05/29 02:50:37
+Card selected:Consecration At: 2020/05/29 02:50:38
+Add button:clicked At: 2020/05/29 02:50:40
+Card added:Consecration At: 2020/05/29 02:50:40
+back button:clicked At: 2020/05/29 02:50:41
+Panel:Create deck At: 2020/05/29 02:50:49
+back button:clicked At: 2020/05/29 02:50:52
+Delete deck button:clicked At: 2020/05/29 02:50:56
+Deck deleted:paladin 1 At: 2020/05/29 02:50:56
+Login At:2020/06/11 21:39:59
+exiting game At: 2020/06/11 21:40:04
+

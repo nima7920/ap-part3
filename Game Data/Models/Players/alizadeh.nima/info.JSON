@@ -1,0 +1,29 @@
+{
+  "name": "alizadeh.nima",
+  "password": "zn13792000",
+  "id": 1588748698539,
+  "gems": 10,
+  "deckNames": [
+    "warlock deck",
+    "hunter deck",
+    "new paladin"
+  ],
+  "currentDeckName": "hunter deck",
+  "ownedCardsName": [
+    "Dreadscale",
+    "River Crocolisk",
+    "Arcane Servant",
+    "Silverback Patriarch",
+    "Murloc Raider",
+    "Phantom Militia",
+    "Rotten Applebaum",
+    "Proud Defender",
+    "Drain Life",
+    "Arcane Explosion",
+    "Learn Draconic",
+    "Swamp King Dred",
+    "Consecration",
+    "Polymorph",
+    "Fireball"
+  ]
+}

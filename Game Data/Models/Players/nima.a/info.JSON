@@ -1,0 +1,29 @@
+{
+  "name": "nima.a",
+  "password": "zn13792000",
+  "id": 1588369859082,
+  "gems": 17,
+  "deckNames": [
+    "deck2",
+    "my deck",
+    "new deck",
+    "new warlock"
+  ],
+  "currentDeckName": "new warlock",
+  "ownedCardsName": [
+    "Dreadscale",
+    "River Crocolisk",
+    "Sinister Strike",
+    "Polymorph",
+    "Phantom Militia",
+    "Stonetusk Boar",
+    "Rotten Applebaum",
+    "Hellfire",
+    "Proud Defender",
+    "Swarm of Locusts",
+    "Iron Fist",
+    "Assassinate",
+    "Tomb Warden",
+    "Consecration"
+  ]
+}

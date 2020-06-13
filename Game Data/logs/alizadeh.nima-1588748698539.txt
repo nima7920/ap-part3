@@ -1,0 +1,789 @@
+Username : alizadeh.nima
+Password : zn13792000
+Created At : 2020/05/06 11:34:58
+
+Login At:2020/05/06 13:35:40
+Menu:Collections;current deck is not ready for playing At: 2020/05/06 13:35:46
+Back button:back to main menu At: 2020/05/06 13:35:51
+Menu:Store At: 2020/05/06 13:35:54
+Card selected:Dreadscale At: 2020/05/06 13:35:56
+Buy button:Clicked At: 2020/05/06 13:36:00
+Buy:Successful At: 2020/05/06 13:36:02
+Card selected:Friendly Smith At: 2020/05/06 13:36:03
+Card selected:River Crocolisk At: 2020/05/06 13:36:07
+Buy button:Clicked At: 2020/05/06 13:36:08
+Buy:Successful At: 2020/05/06 13:36:10
+Card selected:Arcane Servant At: 2020/05/06 13:36:11
+Buy button:Clicked At: 2020/05/06 13:36:12
+Buy:Successful At: 2020/05/06 13:36:14
+Card selected:Silverback Patriarch At: 2020/05/06 13:36:15
+Buy button:Clicked At: 2020/05/06 13:36:16
+Buy:Successful At: 2020/05/06 13:36:17
+Card selected:Murloc Raider At: 2020/05/06 13:36:19
+Buy button:Clicked At: 2020/05/06 13:36:21
+Buy:Successful At: 2020/05/06 13:36:23
+Card selected:Phantom Militia At: 2020/05/06 13:36:24
+Buy button:Clicked At: 2020/05/06 13:36:25
+Buy:Successful At: 2020/05/06 13:36:27
+Card selected:Rotten Applebaum At: 2020/05/06 13:36:28
+Buy button:Clicked At: 2020/05/06 13:36:30
+Buy:Successful At: 2020/05/06 13:36:33
+Card selected:Proud Defender At: 2020/05/06 13:36:34
+Buy button:Clicked At: 2020/05/06 13:36:36
+Buy:Successful At: 2020/05/06 13:36:37
+Card selected:Sinister Strike At: 2020/05/06 13:36:38
+Buy button:Clicked At: 2020/05/06 13:36:41
+Card selected:Drain Life At: 2020/05/06 13:36:44
+Buy button:Clicked At: 2020/05/06 13:36:45
+Buy:Successful At: 2020/05/06 13:36:46
+Card selected:Arcane Explosion At: 2020/05/06 13:36:52
+Buy button:Clicked At: 2020/05/06 13:36:54
+Buy:Successful At: 2020/05/06 13:36:55
+Card selected:Learn Draconic At: 2020/05/06 13:37:10
+Buy button:Clicked At: 2020/05/06 13:37:12
+Buy:Successful At: 2020/05/06 13:37:13
+Back button:Clicked At: 2020/05/06 13:37:15
+Menu:Collections;current deck is not ready for playing At: 2020/05/06 13:37:16
+Panel:Decks At: 2020/05/06 13:37:19
+Panel:Create deck At: 2020/05/06 13:37:22
+Hero selected:Warlock At: 2020/05/06 13:37:24
+Create button:clicked At: 2020/05/06 13:37:38
+Deck created:warlock deck At: 2020/05/06 13:37:38
+Deck selected:warlock deck At: 2020/05/06 13:37:39
+Deck selected:warlock deck At: 2020/05/06 13:37:40
+Add Card Button:Clicked At: 2020/05/06 13:37:42
+Panel:Add card panel At: 2020/05/06 13:37:42
+Card selected:River Crocolisk At: 2020/05/06 13:37:43
+Add button:clicked At: 2020/05/06 13:37:45
+Card added:River Crocolisk At: 2020/05/06 13:37:45
+Card selected:River Crocolisk At: 2020/05/06 13:37:46
+Add button:clicked At: 2020/05/06 13:37:47
+Card added:River Crocolisk At: 2020/05/06 13:37:47
+Card selected:Arcane Servant At: 2020/05/06 13:37:48
+Add button:clicked At: 2020/05/06 13:37:50
+Card added:Arcane Servant At: 2020/05/06 13:37:50
+Card selected:Arcane Servant At: 2020/05/06 13:37:51
+Add button:clicked At: 2020/05/06 13:37:52
+Card added:Arcane Servant At: 2020/05/06 13:37:52
+Card selected:Silverback Patriarch At: 2020/05/06 13:37:53
+Add button:clicked At: 2020/05/06 13:37:55
+Card added:Silverback Patriarch At: 2020/05/06 13:37:55
+Card selected:Phantom Militia At: 2020/05/06 13:37:56
+Add button:clicked At: 2020/05/06 13:37:57
+Card added:Phantom Militia At: 2020/05/06 13:37:57
+Card selected:Rotten Applebaum At: 2020/05/06 13:37:58
+Add button:clicked At: 2020/05/06 13:37:59
+Card added:Rotten Applebaum At: 2020/05/06 13:37:59
+Card selected:Arcane Explosion At: 2020/05/06 13:38:05
+Add button:clicked At: 2020/05/06 13:38:07
+Card added:Arcane Explosion At: 2020/05/06 13:38:07
+Card selected:Arcane Explosion At: 2020/05/06 13:38:07
+Add button:clicked At: 2020/05/06 13:38:09
+Card added:Arcane Explosion At: 2020/05/06 13:38:09
+Card selected:Learn Draconic At: 2020/05/06 13:38:10
+Add button:clicked At: 2020/05/06 13:38:12
+Card added:Learn Draconic At: 2020/05/06 13:38:12
+Card selected:Learn Draconic At: 2020/05/06 13:38:12
+Add button:clicked At: 2020/05/06 13:38:14
+Card added:Learn Draconic At: 2020/05/06 13:38:14
+Card selected:Drain Life At: 2020/05/06 13:38:16
+Add button:clicked At: 2020/05/06 13:38:18
+Card added:Drain Life At: 2020/05/06 13:38:18
+Card selected:Drain Life At: 2020/05/06 13:38:19
+Add button:clicked At: 2020/05/06 13:38:21
+Card added:Drain Life At: 2020/05/06 13:38:21
+Card selected:Dreadscale At: 2020/05/06 13:38:27
+Add button:clicked At: 2020/05/06 13:38:28
+Card added:Dreadscale At: 2020/05/06 13:38:28
+Card selected:Dreadscale At: 2020/05/06 13:38:29
+Add button:clicked At: 2020/05/06 13:38:36
+Card added:Dreadscale At: 2020/05/06 13:38:36
+Back button:back to main menu At: 2020/05/06 13:38:38
+Menu:Collections At: 2020/05/06 13:38:40
+back button:clicked At: 2020/05/06 13:38:42
+Set current button:Clicked At: 2020/05/06 13:38:45
+Set Current:warlock deck  is current deck At: 2020/05/06 13:38:45
+Back button:back to main menu At: 2020/05/06 13:38:48
+Menu:Play;current deck is ready At: 2020/05/06 13:38:50
+Passive Selected:Off cards: Spend -1 mana for each card At: 2020/05/06 13:38:53
+End Turn button:Clicked At: 2020/05/06 13:39:03
+Minion Card Played:River Crocolisk At: 2020/05/06 13:39:05
+End Turn button:Clicked At: 2020/05/06 13:39:10
+Minion Card Played:Dreadscale At: 2020/05/06 13:39:12
+End Turn button:Clicked At: 2020/05/06 13:39:14
+Spell Card Played:Learn Draconic At: 2020/05/06 13:39:17
+Spell Card Played:Arcane Explosion At: 2020/05/06 13:39:18
+End Turn button:Clicked At: 2020/05/06 13:39:20
+Spell Card Played:Learn Draconic At: 2020/05/06 13:39:21
+End Turn button:Clicked At: 2020/05/06 13:39:23
+Minion Card Played:Dreadscale At: 2020/05/06 13:39:26
+Spell Card Played:Drain Life At: 2020/05/06 13:39:29
+End Turn button:Clicked At: 2020/05/06 13:39:30
+Spell Card Played:Arcane Explosion At: 2020/05/06 13:39:32
+Minion Card Played:Arcane Servant At: 2020/05/06 13:39:33
+End Turn button:Clicked At: 2020/05/06 13:39:35
+Minion Card Played:Rotten Applebaum At: 2020/05/06 13:39:37
+End Turn button:Clicked At: 2020/05/06 13:39:39
+Minion Card Played:Silverback Patriarch At: 2020/05/06 13:39:40
+End Turn button:Clicked At: 2020/05/06 13:39:43
+Minion Card Played:River Crocolisk At: 2020/05/06 13:39:44
+End Turn button:Clicked At: 2020/05/06 13:39:46
+End Turn button:Clicked At: 2020/05/06 13:39:47
+Spell Card Played:Drain Life At: 2020/05/06 13:39:49
+End Turn button:Clicked At: 2020/05/06 13:39:51
+Back button:Clicked At: 2020/05/06 13:39:55
+exiting game At: 2020/05/06 13:39:57
+
+Login At:2020/05/06 13:46:48
+Menu:Play;current deck is ready At: 2020/05/06 13:46:50
+Passive Selected:Twice draw: Draw 2 cards each turn At: 2020/05/06 13:46:55
+Error:Deck is full At: 2020/05/06 13:46:59
+Spell Card Played:Learn Draconic At: 2020/05/06 13:47:01
+Error:Deck is full At: 2020/05/06 13:47:04
+End Turn button:Clicked At: 2020/05/06 13:47:06
+Minion Card Played:Arcane Servant At: 2020/05/06 13:47:07
+End Turn button:Clicked At: 2020/05/06 13:47:09
+Minion Card Played:Silverback Patriarch At: 2020/05/06 13:47:10
+End Turn button:Clicked At: 2020/05/06 13:47:12
+Minion Card Played:River Crocolisk At: 2020/05/06 13:47:14
+End Turn button:Clicked At: 2020/05/06 13:47:16
+Minion Card Played:Arcane Servant At: 2020/05/06 13:47:17
+End Turn button:Clicked At: 2020/05/06 13:47:19
+Minion Card Played:River Crocolisk At: 2020/05/06 13:47:21
+Spell Card Played:Arcane Explosion At: 2020/05/06 13:47:25
+Spell Card Played:Arcane Explosion At: 2020/05/06 13:47:25
+End Turn button:Clicked At: 2020/05/06 13:47:27
+Spell Card Played:Drain Life At: 2020/05/06 13:47:28
+End Turn button:Clicked At: 2020/05/06 13:47:30
+Minion Card Played:Rotten Applebaum At: 2020/05/06 13:47:31
+End Turn button:Clicked At: 2020/05/06 13:47:33
+Spell Card Played:Drain Life At: 2020/05/06 13:47:34
+End Turn button:Clicked At: 2020/05/06 13:47:36
+Minion Card Played:Phantom Militia At: 2020/05/06 13:47:37
+End Turn button:Clicked At: 2020/05/06 13:47:39
+End Turn button:Clicked At: 2020/05/06 13:47:40
+End Turn button:Clicked At: 2020/05/06 13:47:41
+Error:Not enough mana for Dreadscale At: 2020/05/06 13:47:43
+Spell Card Played:Learn Draconic At: 2020/05/06 13:47:44
+Error:Not enough mana for Dreadscale At: 2020/05/06 13:47:45
+Error:Not enough mana for Dreadscale At: 2020/05/06 13:47:45
+Error:Not enough mana for Dreadscale At: 2020/05/06 13:47:47
+Back button:Clicked At: 2020/05/06 13:47:50
+exiting game At: 2020/05/06 13:47:52
+
+Login At:2020/05/06 14:40:36
+Login At:2020/05/06 14:48:20
+Login At:2020/05/06 14:49:36
+Login At:2020/05/06 14:50:42
+Login At:2020/05/06 14:51:29
+Login At:2020/05/06 14:52:24
+Menu:Store At: 2020/05/06 14:52:43
+Login At:2020/05/06 14:55:16
+Menu:Store At: 2020/05/06 14:55:18
+Login At:2020/05/06 14:57:31
+Menu:Store At: 2020/05/06 14:57:33
+Panel:Sell Card At: 2020/05/06 14:57:40
+Panel:Buy Card At: 2020/05/06 14:57:42
+Login At:2020/05/06 14:58:21
+Menu:Store At: 2020/05/06 14:58:22
+Login At:2020/05/06 14:58:45
+Menu:Store At: 2020/05/06 14:58:48
+Card selected:Hellfire At: 2020/05/06 14:58:54
+Login At:2020/05/06 15:00:08
+Menu:Store At: 2020/05/06 15:00:09
+Card selected:The Black Knight At: 2020/05/06 15:00:12
+Panel:Sell Card At: 2020/05/06 15:00:13
+Panel:Buy Card At: 2020/05/06 15:00:15
+Login At:2020/05/06 15:27:14
+Menu:Collections At: 2020/05/06 15:27:16
+Login At:2020/05/06 15:28:37
+Menu:Collections At: 2020/05/06 15:28:38
+Login At:2020/05/06 15:29:57
+Menu:Collections At: 2020/05/06 15:29:59
+Card filter:Mana to 0 At: 2020/05/06 15:30:02
+Card filter:Mana to 1 At: 2020/05/06 15:30:03
+Card filter:Mana to 2 At: 2020/05/06 15:30:03
+Card filter:Mana to 4 At: 2020/05/06 15:30:03
+Card filter:Mana to 6 At: 2020/05/06 15:30:03
+Card filter:Mana to 7 At: 2020/05/06 15:30:03
+Card filter:Mana to 8 At: 2020/05/06 15:30:04
+Card filter:Mana to 9 At: 2020/05/06 15:30:04
+Card filter:Mana to 10 At: 2020/05/06 15:30:04
+Card filter:Mana to 9 At: 2020/05/06 15:30:05
+Card filter:Mana to 8 At: 2020/05/06 15:30:05
+Card filter:Mana to 7 At: 2020/05/06 15:30:05
+Card filter:Mana to 6 At: 2020/05/06 15:30:05
+Card filter:Mana to 4 At: 2020/05/06 15:30:05
+Card filter:Mana to 2 At: 2020/05/06 15:30:05
+Card filter:Mana to 0 At: 2020/05/06 15:30:05
+Card filter:Mana to 0 At: 2020/05/06 15:30:06
+Login At:2020/05/06 15:31:08
+Menu:Store At: 2020/05/06 15:31:10
+Back button:Clicked At: 2020/05/06 15:31:12
+Menu:Collections At: 2020/05/06 15:31:13
+All cards panel owned Cards filter:Not Owned At: 2020/05/06 15:31:17
+All cards panel owned Cards filter:Owned At: 2020/05/06 15:31:20
+All cards panel owned Cards filter:Not Owned At: 2020/05/06 15:31:22
+Direct buy:Arcane Missiles At: 2020/05/06 15:31:27
+Login At:2020/05/06 15:35:30
+Menu:Store At: 2020/05/06 15:35:33
+Back button:Clicked At: 2020/05/06 15:35:47
+Menu:Collections At: 2020/05/06 15:35:50
+Panel:Decks At: 2020/05/06 15:35:54
+Panel:All Cards At: 2020/05/06 15:35:55
+Login At:2020/05/06 15:37:29
+Menu:Collections At: 2020/05/06 15:37:39
+Login At:2020/05/06 15:39:46
+Menu:Collections At: 2020/05/06 15:39:47
+Panel:Decks At: 2020/05/06 15:39:49
+Add Card Button:Clicked At: 2020/05/06 15:39:51
+Error:Not deck is selected At: 2020/05/06 15:39:51
+Deck selected:my deck At: 2020/05/06 15:39:54
+Deck selected:my deck At: 2020/05/06 15:39:54
+Add Card Button:Clicked At: 2020/05/06 15:40:04
+Panel:Add card panel At: 2020/05/06 15:40:04
+Back button:back to main menu At: 2020/05/06 15:40:08
+Menu:Collections At: 2020/05/06 15:40:10
+back button:clicked At: 2020/05/06 15:40:13
+Panel:Create deck At: 2020/05/06 15:40:15
+Login At:2020/05/06 15:43:17
+Menu:Collections At: 2020/05/06 15:43:21
+Panel:Decks At: 2020/05/06 15:43:23
+Deck selected:my deck At: 2020/05/06 15:43:27
+Deck selected:my deck At: 2020/05/06 15:43:27
+Deck selected:warlock deck At: 2020/05/06 15:43:29
+Deck selected:warlock deck At: 2020/05/06 15:43:30
+Card selected:River Crocolisk At: 2020/05/06 15:43:30
+Card removed:River Crocolisk At: 2020/05/06 15:43:32
+Card selected:River Crocolisk At: 2020/05/06 15:43:35
+Card removed:River Crocolisk At: 2020/05/06 15:43:37
+Panel:Decks At: 2020/05/06 15:43:40
+Panel:Create deck At: 2020/05/06 15:43:43
+Hero selected:Mage At: 2020/05/06 15:43:47
+Hero selected:Rogue At: 2020/05/06 15:43:49
+Hero selected:Warlock At: 2020/05/06 15:43:51
+back button:clicked At: 2020/05/06 15:43:55
+Add Card Button:Clicked At: 2020/05/06 15:43:58
+Panel:Add card panel At: 2020/05/06 15:43:58
+Card selected:Silverback Patriarch At: 2020/05/06 15:44:01
+Add button:clicked At: 2020/05/06 15:44:03
+Card added:Silverback Patriarch At: 2020/05/06 15:44:03
+back button:clicked At: 2020/05/06 15:44:09
+exiting game At: 2020/05/06 15:44:20
+
+Login At:2020/05/06 15:48:21
+Menu:Status At: 2020/05/06 15:48:23
+exiting game At: 2020/05/06 15:48:34
+
+Login At:2020/05/06 15:49:56
+Menu:Status At: 2020/05/06 15:49:59
+exiting game At: 2020/05/06 15:50:45
+
+Login At:2020/05/06 15:54:42
+Menu:Collections;current deck is not ready for playing At: 2020/05/06 15:54:44
+Panel:Decks At: 2020/05/06 15:54:47
+Deck selected:warlock deck At: 2020/05/06 15:54:49
+Deck selected:warlock deck At: 2020/05/06 15:54:49
+Set current button:Clicked At: 2020/05/06 15:54:53
+Error:Deck does not have enough cards At: 2020/05/06 15:54:53
+Card selected:Arcane Servant At: 2020/05/06 15:54:57
+Add Card Button:Clicked At: 2020/05/06 15:55:00
+Panel:Add card panel At: 2020/05/06 15:55:00
+Card selected:River Crocolisk At: 2020/05/06 15:55:02
+Add button:clicked At: 2020/05/06 15:55:03
+Card added:River Crocolisk At: 2020/05/06 15:55:03
+Card selected:Murloc Raider At: 2020/05/06 15:55:05
+Add button:clicked At: 2020/05/06 15:55:06
+Card added:Murloc Raider At: 2020/05/06 15:55:06
+Card selected:Murloc Raider At: 2020/05/06 15:55:07
+Add button:clicked At: 2020/05/06 15:55:09
+Card added:Murloc Raider At: 2020/05/06 15:55:09
+back button:clicked At: 2020/05/06 15:55:12
+Back button:back to main menu At: 2020/05/06 15:55:14
+Menu:Play;current deck is ready At: 2020/05/06 15:55:15
+Passive Selected:Free power: Hero power costs -1 mana,Use hero power twice a turn At: 2020/05/06 15:55:26
+Login At:2020/05/06 16:20:48
+Menu:Store At: 2020/05/06 16:20:50
+Back button:Clicked At: 2020/05/06 16:20:58
+exiting game At: 2020/05/06 16:21:05
+
+Login At:2020/05/06 16:22:58
+Menu:Store At: 2020/05/06 16:23:00
+Panel:Sell Card At: 2020/05/06 16:23:29
+Panel:Buy Card At: 2020/05/06 16:23:31
+exiting game At: 2020/05/06 16:24:01
+
+Login At:2020/05/06 16:24:15
+Menu:Store At: 2020/05/06 16:24:17
+Panel:Sell Card At: 2020/05/06 16:24:18
+Panel:Buy Card At: 2020/05/06 16:24:20
+exiting game At: 2020/05/06 16:25:00
+
+Login At:2020/05/06 16:25:15
+Menu:Store At: 2020/05/06 16:25:17
+Panel:Sell Card At: 2020/05/06 16:25:18
+Panel:Buy Card At: 2020/05/06 16:25:21
+exiting game At: 2020/05/06 16:25:30
+
+Login At:2020/05/06 17:03:20
+Menu:Collections At: 2020/05/06 17:03:23
+All cards panel owned Cards filter:Not Owned At: 2020/05/06 17:03:34
+All cards panel owned Cards filter:Owned At: 2020/05/06 17:03:37
+All cards panel CardClass filter:Neutral At: 2020/05/06 17:03:39
+All cards panel CardClass filter:Mage At: 2020/05/06 17:03:40
+All cards panel CardClass filter:Rogue At: 2020/05/06 17:03:44
+All cards panel CardClass filter:Warlock At: 2020/05/06 17:03:45
+All cards panel CardClass filter:Paladin At: 2020/05/06 17:03:48
+All cards panel CardClass filter:Hunter At: 2020/05/06 17:03:49
+All cards panel CardClass filter:All Cards At: 2020/05/06 17:03:51
+Panel:Decks At: 2020/05/06 17:03:53
+Deck selected:warlock deck At: 2020/05/06 17:03:55
+Deck selected:warlock deck At: 2020/05/06 17:03:56
+Deck selected:my deck At: 2020/05/06 17:04:06
+Deck selected:my deck At: 2020/05/06 17:04:06
+Deck selected:warlock deck At: 2020/05/06 17:04:09
+Deck selected:warlock deck At: 2020/05/06 17:04:09
+Back button:back to main menu At: 2020/05/06 17:04:12
+Menu:Play;current deck is ready At: 2020/05/06 17:04:14
+Back button:Clicked At: 2020/05/06 17:04:17
+exiting game At: 2020/05/06 17:04:19
+
+Login At:2020/05/06 19:20:59
+Menu:Play;current deck is ready At: 2020/05/06 19:21:04
+Passive Selected:Mana jump: Earn +1 mana each turn At: 2020/05/06 19:21:10
+Spell Card Played:Learn Draconic At: 2020/05/06 19:21:17
+End Turn button:Clicked At: 2020/05/06 19:21:22
+Spell Card Played:Arcane Explosion At: 2020/05/06 19:21:27
+End Turn button:Clicked At: 2020/05/06 19:21:29
+Minion Card Played:Dreadscale At: 2020/05/06 19:21:41
+End Turn button:Clicked At: 2020/05/06 19:21:44
+Minion Card Played:Arcane Servant At: 2020/05/06 19:21:47
+Spell Card Played:Arcane Explosion At: 2020/05/06 19:21:50
+End Turn button:Clicked At: 2020/05/06 19:21:52
+Minion Card Played:Rotten Applebaum At: 2020/05/06 19:21:55
+End Turn button:Clicked At: 2020/05/06 19:21:57
+Minion Card Played:River Crocolisk At: 2020/05/06 19:21:59
+Minion Card Played:Silverback Patriarch At: 2020/05/06 19:22:02
+End Turn button:Clicked At: 2020/05/06 19:22:04
+Minion Card Played:Silverback Patriarch At: 2020/05/06 19:22:05
+End Turn button:Clicked At: 2020/05/06 19:22:07
+Minion Card Played:Murloc Raider At: 2020/05/06 19:22:09
+End Turn button:Clicked At: 2020/05/06 19:22:10
+End Turn button:Clicked At: 2020/05/06 19:22:11
+End Turn button:Clicked At: 2020/05/06 19:22:13
+End Turn button:Clicked At: 2020/05/06 19:22:14
+End Turn button:Clicked At: 2020/05/06 19:22:15
+End Turn button:Clicked At: 2020/05/06 19:22:16
+End Turn button:Clicked At: 2020/05/06 19:22:16
+Spell Card Played:Drain Life At: 2020/05/06 19:22:20
+Spell Card Played:Drain Life At: 2020/05/06 19:22:21
+Error:Deck is full At: 2020/05/06 19:22:22
+Spell Card Played:Learn Draconic At: 2020/05/06 19:22:23
+Back button:Clicked At: 2020/05/06 19:22:28
+Menu:Play;current deck is ready At: 2020/05/06 19:22:30
+Passive Selected:Mana jump: Earn +1 mana each turn At: 2020/05/06 19:22:32
+End Turn button:Clicked At: 2020/05/06 19:22:38
+End Turn button:Clicked At: 2020/05/06 19:22:39
+End Turn button:Clicked At: 2020/05/06 19:22:39
+End Turn button:Clicked At: 2020/05/06 19:22:40
+End Turn button:Clicked At: 2020/05/06 19:22:41
+End Turn button:Clicked At: 2020/05/06 19:22:41
+End Turn button:Clicked At: 2020/05/06 19:22:42
+End Turn button:Clicked At: 2020/05/06 19:22:43
+End Turn button:Clicked At: 2020/05/06 19:22:43
+End Turn button:Clicked At: 2020/05/06 19:22:44
+End Turn button:Clicked At: 2020/05/06 19:22:45
+End Turn button:Clicked At: 2020/05/06 19:22:46
+End Turn button:Clicked At: 2020/05/06 19:22:48
+Back button:Clicked At: 2020/05/06 19:23:00
+exiting game At: 2020/05/06 19:23:02
+
+Login At:2020/05/06 19:24:29
+Menu:Collections At: 2020/05/06 19:24:31
+Card filter:Mana to 0 At: 2020/05/06 19:24:40
+Card filter:Mana to 1 At: 2020/05/06 19:24:40
+Card filter:Mana to 1 At: 2020/05/06 19:24:40
+Card filter:Mana to 1 At: 2020/05/06 19:24:42
+Card filter:Mana to 2 At: 2020/05/06 19:24:42
+Card filter:Mana to 2 At: 2020/05/06 19:24:42
+Card filter:Mana to 2 At: 2020/05/06 19:24:44
+Card filter:Mana to 3 At: 2020/05/06 19:24:44
+Card filter:Mana to 3 At: 2020/05/06 19:24:44
+Card filter:Mana to 3 At: 2020/05/06 19:24:47
+Card filter:Mana to 4 At: 2020/05/06 19:24:47
+Card filter:Mana to 4 At: 2020/05/06 19:24:47
+Card filter:Mana to 4 At: 2020/05/06 19:24:49
+Card filter:Mana to 5 At: 2020/05/06 19:24:49
+Card filter:Mana to 5 At: 2020/05/06 19:24:49
+Card filter:Mana to 5 At: 2020/05/06 19:24:51
+Card filter:Mana to 4 At: 2020/05/06 19:24:51
+Card filter:Mana to 4 At: 2020/05/06 19:24:51
+Card filter:Mana to 4 At: 2020/05/06 19:24:52
+Card filter:Mana to 3 At: 2020/05/06 19:24:52
+Card filter:Mana to 3 At: 2020/05/06 19:24:52
+Card filter:Mana to 3 At: 2020/05/06 19:24:52
+Card filter:Mana to 2 At: 2020/05/06 19:24:52
+Card filter:Mana to 2 At: 2020/05/06 19:24:52
+Card filter:Mana to 2 At: 2020/05/06 19:24:53
+Card filter:Mana to 1 At: 2020/05/06 19:24:53
+Card filter:Mana to 1 At: 2020/05/06 19:24:53
+Card filter:Mana to 1 At: 2020/05/06 19:24:53
+Card filter:Mana to 0 At: 2020/05/06 19:24:53
+Card filter:Mana to 0 At: 2020/05/06 19:24:53
+Card filter:Mana to 0 At: 2020/05/06 19:25:03
+Card filter:Mana to 1 At: 2020/05/06 19:25:03
+Card filter:Mana to 1 At: 2020/05/06 19:25:03
+Card filter:Mana to 1 At: 2020/05/06 19:25:09
+Card filter:Mana to 2 At: 2020/05/06 19:25:09
+Card filter:Mana to 2 At: 2020/05/06 19:25:09
+Card filter:Mana to 2 At: 2020/05/06 19:25:11
+Card filter:Mana to 3 At: 2020/05/06 19:25:11
+Card filter:Mana to 3 At: 2020/05/06 19:25:11
+Card filter:Mana to 3 At: 2020/05/06 19:25:13
+Card filter:Mana to 4 At: 2020/05/06 19:25:13
+Card filter:Mana to 4 At: 2020/05/06 19:25:14
+Card filter:Mana to 4 At: 2020/05/06 19:25:15
+Card filter:Mana to 5 At: 2020/05/06 19:25:15
+Card filter:Mana to 5 At: 2020/05/06 19:25:15
+Card filter:Mana to 5 At: 2020/05/06 19:25:17
+Card filter:Mana to 6 At: 2020/05/06 19:25:17
+Card filter:Mana to 6 At: 2020/05/06 19:25:17
+Card filter:Mana to 6 At: 2020/05/06 19:25:18
+Card filter:Mana to 7 At: 2020/05/06 19:25:18
+Card filter:Mana to 7 At: 2020/05/06 19:25:18
+Card filter:Mana to 7 At: 2020/05/06 19:25:19
+Card filter:Mana to 8 At: 2020/05/06 19:25:19
+Card filter:Mana to 8 At: 2020/05/06 19:25:19
+Card filter:Mana to 8 At: 2020/05/06 19:25:21
+Card filter:Mana to 9 At: 2020/05/06 19:25:21
+Card filter:Mana to 9 At: 2020/05/06 19:25:21
+Card filter:Mana to 9 At: 2020/05/06 19:25:22
+Card filter:Mana to 10 At: 2020/05/06 19:25:22
+Card filter:Mana to 10 At: 2020/05/06 19:25:23
+Card filter:Mana to 10 At: 2020/05/06 19:25:25
+Card filter:Mana to 9 At: 2020/05/06 19:25:25
+Card filter:Mana to 9 At: 2020/05/06 19:25:25
+Card filter:Mana to 9 At: 2020/05/06 19:25:25
+Card filter:Mana to 8 At: 2020/05/06 19:25:25
+Card filter:Mana to 8 At: 2020/05/06 19:25:25
+Card filter:Mana to 8 At: 2020/05/06 19:25:26
+Card filter:Mana to 7 At: 2020/05/06 19:25:26
+Card filter:Mana to 7 At: 2020/05/06 19:25:26
+Card filter:Mana to 7 At: 2020/05/06 19:25:26
+Card filter:Mana to 6 At: 2020/05/06 19:25:26
+Card filter:Mana to 6 At: 2020/05/06 19:25:26
+Card filter:Mana to 6 At: 2020/05/06 19:25:28
+Card filter:Mana to 5 At: 2020/05/06 19:25:28
+Card filter:Mana to 5 At: 2020/05/06 19:25:28
+Card filter:Mana to 5 At: 2020/05/06 19:25:29
+Card filter:Mana to 4 At: 2020/05/06 19:25:29
+Card filter:Mana to 4 At: 2020/05/06 19:25:29
+Card filter:Mana to 4 At: 2020/05/06 19:25:30
+Card filter:Mana to 3 At: 2020/05/06 19:25:30
+Card filter:Mana to 3 At: 2020/05/06 19:25:31
+Panel:Decks At: 2020/05/06 19:25:33
+Deck selected:warlock deck At: 2020/05/06 19:25:36
+Deck selected:warlock deck At: 2020/05/06 19:25:36
+Card selected:Murloc Raider At: 2020/05/06 19:25:52
+Card removed:Murloc Raider At: 2020/05/06 19:25:53
+Card selected:Murloc Raider At: 2020/05/06 19:25:55
+Card removed:Murloc Raider At: 2020/05/06 19:25:56
+Panel:Decks At: 2020/05/06 19:26:03
+Panel:Create deck At: 2020/05/06 19:26:06
+Hero selected:Hunter At: 2020/05/06 19:26:10
+Create button:clicked At: 2020/05/06 19:26:17
+Deck created:hunter deck At: 2020/05/06 19:26:17
+Deck selected:hunter deck At: 2020/05/06 19:26:19
+Deck selected:hunter deck At: 2020/05/06 19:26:19
+Add Card Button:Clicked At: 2020/05/06 19:26:21
+Panel:Add card panel At: 2020/05/06 19:26:21
+Card selected:River Crocolisk At: 2020/05/06 19:26:30
+Add button:clicked At: 2020/05/06 19:26:32
+Card added:River Crocolisk At: 2020/05/06 19:26:32
+Card selected:Arcane Servant At: 2020/05/06 19:26:33
+Add button:clicked At: 2020/05/06 19:26:35
+Card added:Arcane Servant At: 2020/05/06 19:26:35
+Card selected:Phantom Militia At: 2020/05/06 19:26:36
+Add button:clicked At: 2020/05/06 19:26:38
+Card added:Phantom Militia At: 2020/05/06 19:26:38
+Card selected:Learn Draconic At: 2020/05/06 19:26:42
+Add button:clicked At: 2020/05/06 19:26:44
+Card added:Learn Draconic At: 2020/05/06 19:26:44
+Card selected:Proud Defender At: 2020/05/06 19:26:48
+Add button:clicked At: 2020/05/06 19:26:49
+Card added:Proud Defender At: 2020/05/06 19:26:49
+Card selected:Arcane Explosion At: 2020/05/06 19:26:51
+Add button:clicked At: 2020/05/06 19:26:52
+Card added:Arcane Explosion At: 2020/05/06 19:26:52
+Card selected:Rotten Applebaum At: 2020/05/06 19:26:56
+Add button:clicked At: 2020/05/06 19:26:57
+Card added:Rotten Applebaum At: 2020/05/06 19:26:57
+Card selected:Rotten Applebaum At: 2020/05/06 19:26:58
+Add button:clicked At: 2020/05/06 19:26:59
+Card added:Rotten Applebaum At: 2020/05/06 19:26:59
+back button:clicked At: 2020/05/06 19:27:03
+change name button:Clicked At: 2020/05/06 19:27:09
+Deck name changed:to hunter At: 2020/05/06 19:27:16
+Deck selected:warlock deck At: 2020/05/06 19:27:20
+Deck selected:warlock deck At: 2020/05/06 19:27:21
+change name button:Clicked At: 2020/05/06 19:27:30
+Error:Deck with name hunter already exists At: 2020/05/06 19:27:33
+Deck selected:my deck At: 2020/05/06 19:27:40
+Deck selected:my deck At: 2020/05/06 19:27:40
+Deck selected:warlock deck At: 2020/05/06 19:27:41
+Deck selected:warlock deck At: 2020/05/06 19:27:41
+Deck selected:hunter At: 2020/05/06 19:27:42
+Deck selected:hunter At: 2020/05/06 19:27:42
+Set current button:Clicked At: 2020/05/06 19:27:47
+Error:Deck does not have enough cards At: 2020/05/06 19:27:47
+Deck selected:my deck At: 2020/05/06 19:27:56
+Deck selected:my deck At: 2020/05/06 19:27:56
+Deck selected:hunter At: 2020/05/06 19:28:21
+Deck selected:hunter At: 2020/05/06 19:28:21
+Back button:back to main menu At: 2020/05/06 19:28:27
+Menu:Status At: 2020/05/06 19:28:30
+Back button:Clicked At: 2020/05/06 19:28:42
+Menu:Collections At: 2020/05/06 19:28:44
+Back button:back to main menu At: 2020/05/06 19:28:48
+Menu:Status At: 2020/05/06 19:28:50
+Login At:2020/05/06 19:30:07
+Menu:Store At: 2020/05/06 19:30:10
+Back button:Clicked At: 2020/05/06 19:30:13
+Menu:Status At: 2020/05/06 19:30:14
+Back button:Clicked At: 2020/05/06 19:30:17
+Menu:Store At: 2020/05/06 19:30:19
+Back button:Clicked At: 2020/05/06 19:30:25
+Menu:Collections At: 2020/05/06 19:30:27
+Back button:back to main menu At: 2020/05/06 19:30:34
+Menu:Store At: 2020/05/06 19:30:37
+Card selected:Multi-Shot At: 2020/05/06 19:30:38
+Card selected:Swamp King Dred At: 2020/05/06 19:31:00
+Buy button:Clicked At: 2020/05/06 19:31:02
+Buy:Successful At: 2020/05/06 19:31:03
+Back button:Clicked At: 2020/05/06 19:31:06
+Menu:Collections At: 2020/05/06 19:31:08
+All cards panel CardClass filter:All Cards At: 2020/05/06 19:31:14
+Back button:back to main menu At: 2020/05/06 19:31:40
+Menu:Status At: 2020/05/06 19:31:42
+exiting game At: 2020/05/06 19:31:54
+
+Login At:2020/05/06 21:15:06
+Menu:Store At: 2020/05/06 21:15:10
+Card selected:Gnomish Army Knife At: 2020/05/06 21:15:15
+Card selected:Consecration At: 2020/05/06 21:15:23
+Buy button:Clicked At: 2020/05/06 21:15:26
+Buy:Successful At: 2020/05/06 21:15:27
+Back button:Clicked At: 2020/05/06 21:15:31
+Menu:Collections At: 2020/05/06 21:15:32
+All cards panel CardClass filter:All Cards At: 2020/05/06 21:15:34
+Card filter:Mana to 0 At: 2020/05/06 21:15:58
+Card filter:Mana to 1 At: 2020/05/06 21:15:58
+Card filter:Mana to 1 At: 2020/05/06 21:15:58
+Card filter:Mana to 1 At: 2020/05/06 21:16:05
+Card filter:Mana to 2 At: 2020/05/06 21:16:06
+Card filter:Mana to 2 At: 2020/05/06 21:16:06
+Card filter:Mana to 2 At: 2020/05/06 21:16:07
+Card filter:Mana to 3 At: 2020/05/06 21:16:07
+Card filter:Mana to 3 At: 2020/05/06 21:16:08
+Card filter:Mana to 3 At: 2020/05/06 21:16:09
+Card filter:Mana to 4 At: 2020/05/06 21:16:09
+Card filter:Mana to 4 At: 2020/05/06 21:16:09
+All cards panel owned Cards filter:Not Owned At: 2020/05/06 21:16:11
+Direct buy:Fireball At: 2020/05/06 21:16:13
+Card selected:Fireball At: 2020/05/06 21:16:20
+Card selected:Iron Fist At: 2020/05/06 21:16:26
+Back button:Clicked At: 2020/05/06 21:16:40
+Menu:Status At: 2020/05/06 21:16:47
+exiting game At: 2020/05/06 21:16:52
+
+Login At:2020/05/06 21:18:03
+Menu:Status At: 2020/05/06 21:18:08
+Back button:Clicked At: 2020/05/06 21:18:32
+Menu:Play;current deck is ready At: 2020/05/06 21:18:33
+Passive Selected:Free power: Hero power costs -1 mana,Use hero power twice a turn At: 2020/05/06 21:18:35
+Back button:Clicked At: 2020/05/06 21:18:55
+Menu:Collections At: 2020/05/06 21:18:57
+Panel:Decks At: 2020/05/06 21:18:59
+Deck selected:warlock deck At: 2020/05/06 21:19:01
+Deck selected:warlock deck At: 2020/05/06 21:19:02
+Deck selected:hunter deck At: 2020/05/06 21:19:03
+Deck selected:hunter deck At: 2020/05/06 21:19:04
+Set current button:Clicked At: 2020/05/06 21:19:05
+Error:Deck does not have enough cards At: 2020/05/06 21:19:05
+Add Card Button:Clicked At: 2020/05/06 21:19:08
+Panel:Add card panel At: 2020/05/06 21:19:08
+Card selected:Swamp King Dred At: 2020/05/06 21:19:16
+Add button:clicked At: 2020/05/06 21:19:17
+Card added:Swamp King Dred At: 2020/05/06 21:19:17
+Card selected:Swamp King Dred At: 2020/05/06 21:19:19
+Add button:clicked At: 2020/05/06 21:19:21
+Card added:Swamp King Dred At: 2020/05/06 21:19:21
+Back button:back to main menu At: 2020/05/06 21:19:22
+Menu:Collections At: 2020/05/06 21:19:24
+back button:clicked At: 2020/05/06 21:19:28
+Card selected:Swamp King Dred At: 2020/05/06 21:19:40
+Set current button:Clicked At: 2020/05/06 21:19:44
+Error:Deck does not have enough cards At: 2020/05/06 21:19:44
+Add Card Button:Clicked At: 2020/05/06 21:19:48
+Panel:Add card panel At: 2020/05/06 21:19:48
+Card selected:Arcane Explosion At: 2020/05/06 21:19:54
+Add button:clicked At: 2020/05/06 21:19:56
+Card added:Arcane Explosion At: 2020/05/06 21:19:56
+Card selected:Learn Draconic At: 2020/05/06 21:19:57
+Add button:clicked At: 2020/05/06 21:19:58
+Card added:Learn Draconic At: 2020/05/06 21:19:58
+back button:clicked At: 2020/05/06 21:20:04
+Set current button:Clicked At: 2020/05/06 21:20:08
+Error:Deck does not have enough cards At: 2020/05/06 21:20:08
+Add Card Button:Clicked At: 2020/05/06 21:20:21
+Panel:Add card panel At: 2020/05/06 21:20:21
+Card selected:Arcane Servant At: 2020/05/06 21:20:23
+Add button:clicked At: 2020/05/06 21:20:25
+Card added:Arcane Servant At: 2020/05/06 21:20:25
+Card selected:Silverback Patriarch At: 2020/05/06 21:20:26
+Add button:clicked At: 2020/05/06 21:20:27
+Card added:Silverback Patriarch At: 2020/05/06 21:20:27
+Card selected:Murloc Raider At: 2020/05/06 21:20:28
+Add button:clicked At: 2020/05/06 21:20:30
+Card added:Murloc Raider At: 2020/05/06 21:20:30
+back button:clicked At: 2020/05/06 21:20:31
+Set current button:Clicked At: 2020/05/06 21:20:33
+Set Current:hunter deck  is current deck At: 2020/05/06 21:20:33
+Card selected:Rotten Applebaum At: 2020/05/06 21:20:37
+Back button:back to main menu At: 2020/05/06 21:20:45
+Menu:Play;current deck is ready At: 2020/05/06 21:20:47
+Passive Selected:Mana jump: Earn +1 mana each turn At: 2020/05/06 21:20:52
+Error:Not enough mana for Arcane Explosion At: 2020/05/06 21:21:02
+End Turn button:Clicked At: 2020/05/06 21:21:07
+Spell Card Played:Arcane Explosion At: 2020/05/06 21:21:12
+End Turn button:Clicked At: 2020/05/06 21:21:14
+Spell Card Played:Arcane Explosion At: 2020/05/06 21:21:18
+End Turn button:Clicked At: 2020/05/06 21:21:22
+Minion Card Played:Proud Defender At: 2020/05/06 21:21:26
+End Turn button:Clicked At: 2020/05/06 21:21:30
+Minion Card Played:Rotten Applebaum At: 2020/05/06 21:21:40
+End Turn button:Clicked At: 2020/05/06 21:21:42
+Minion Card Played:Silverback Patriarch At: 2020/05/06 21:21:50
+Minion Card Played:River Crocolisk At: 2020/05/06 21:21:51
+Spell Card Played:Learn Draconic At: 2020/05/06 21:21:54
+End Turn button:Clicked At: 2020/05/06 21:21:56
+Spell Card Played:Learn Draconic At: 2020/05/06 21:21:57
+Error:Not enough mana for Swamp King Dred At: 2020/05/06 21:21:59
+End Turn button:Clicked At: 2020/05/06 21:22:00
+Minion Card Played:Murloc Raider At: 2020/05/06 21:22:04
+Minion Card Played:Swamp King Dred At: 2020/05/06 21:22:05
+End Turn button:Clicked At: 2020/05/06 21:22:07
+Minion Card Played:Swamp King Dred At: 2020/05/06 21:22:09
+End Turn button:Clicked At: 2020/05/06 21:22:11
+Error:Deck is full At: 2020/05/06 21:22:12
+End Turn button:Clicked At: 2020/05/06 21:22:15
+End Turn button:Clicked At: 2020/05/06 21:22:17
+End Turn button:Clicked At: 2020/05/06 21:22:17
+Back button:Clicked At: 2020/05/06 21:22:22
+Menu:Status At: 2020/05/06 21:22:56
+Back button:Clicked At: 2020/05/06 21:22:59
+Login At:2020/05/06 21:28:07
+exiting game At: 2020/05/06 21:28:12
+
+Login At:2020/05/06 21:29:56
+Menu:Collections At: 2020/05/06 21:29:59
+All cards panel owned Cards filter:Not Owned At: 2020/05/06 21:30:01
+Panel:Decks At: 2020/05/06 21:30:03
+Deck selected:hunter deck At: 2020/05/06 21:30:05
+Deck selected:hunter deck At: 2020/05/06 21:30:05
+Deck selected:warlock deck At: 2020/05/06 21:30:06
+Deck selected:warlock deck At: 2020/05/06 21:30:07
+Deck selected:my deck At: 2020/05/06 21:30:08
+Deck selected:my deck At: 2020/05/06 21:30:08
+Deck selected:warlock deck At: 2020/05/06 21:30:09
+Deck selected:warlock deck At: 2020/05/06 21:30:10
+Deck selected:my deck At: 2020/05/06 21:30:11
+Deck selected:my deck At: 2020/05/06 21:30:11
+Delete deck button:clicked At: 2020/05/06 21:30:13
+Deck deleted:my deck At: 2020/05/06 21:30:13
+exiting game At: 2020/05/06 21:30:41
+
+Login At:2020/05/06 21:36:42
+Menu:Store At: 2020/05/06 21:36:44
+Panel:Sell Card At: 2020/05/06 21:36:46
+Card selected:Arcane Servant At: 2020/05/06 21:36:47
+Sell button:Clicked At: 2020/05/06 21:36:49
+Back button:Clicked At: 2020/05/06 21:36:53
+Login At:2020/05/06 21:37:49
+Menu:Status At: 2020/05/06 21:37:52
+Login At:2020/05/06 21:44:12
+Menu:Status At: 2020/05/06 21:44:15
+Login At:2020/05/06 21:44:59
+Menu:Status At: 2020/05/06 21:45:01
+Login At:2020/05/06 21:45:58
+Menu:Status At: 2020/05/06 21:46:00
+Login At:2020/05/06 21:50:40
+Menu:Status At: 2020/05/06 21:50:43
+Login At:2020/05/06 21:52:57
+Menu:Status At: 2020/05/06 21:53:00
+Login At:2020/05/06 21:54:41
+Menu:Status At: 2020/05/06 21:54:44
+Back button:Clicked At: 2020/05/06 21:54:46
+Menu:Collections At: 2020/05/06 21:54:48
+Panel:Decks At: 2020/05/06 21:54:50
+Panel:Create deck At: 2020/05/06 21:54:53
+Hero selected:Paladin At: 2020/05/06 21:54:55
+Create button:clicked At: 2020/05/06 21:55:01
+Deck created:new paladin At: 2020/05/06 21:55:01
+Back button:back to main menu At: 2020/05/06 21:55:04
+Menu:Status At: 2020/05/06 21:55:05
+Login At:2020/05/07 00:40:26
+Menu:Collections At: 2020/05/07 00:40:35
+All cards panel CardClass filter:Neutral At: 2020/05/07 00:40:37
+All cards panel CardClass filter:Mage At: 2020/05/07 00:40:39
+All cards panel CardClass filter:Rogue At: 2020/05/07 00:40:47
+All cards panel CardClass filter:Warlock At: 2020/05/07 00:40:48
+All cards panel CardClass filter:Paladin At: 2020/05/07 00:40:50
+All cards panel CardClass filter:Hunter At: 2020/05/07 00:40:51
+All cards panel owned Cards filter:Not Owned At: 2020/05/07 00:42:17
+Card filter:Mana to 0 At: 2020/05/07 00:42:19
+Card filter:Mana to 1 At: 2020/05/07 00:42:19
+Card filter:Mana to 1 At: 2020/05/07 00:42:19
+Card filter:Mana to 1 At: 2020/05/07 00:42:21
+Card filter:Mana to 2 At: 2020/05/07 00:42:21
+Card filter:Mana to 2 At: 2020/05/07 00:42:21
+All cards panel CardClass filter:Paladin At: 2020/05/07 00:42:22
+All cards panel CardClass filter:Warlock At: 2020/05/07 00:42:23
+All cards panel CardClass filter:All Cards At: 2020/05/07 00:42:25
+All cards panel CardClass filter:Neutral At: 2020/05/07 00:42:26
+Card filter:Mana to 2 At: 2020/05/07 00:42:29
+Card filter:Mana to 3 At: 2020/05/07 00:42:29
+Card filter:Mana to 3 At: 2020/05/07 00:42:29
+Card filter:Mana to 3 At: 2020/05/07 00:42:31
+Card filter:Mana to 4 At: 2020/05/07 00:42:31
+Card filter:Mana to 4 At: 2020/05/07 00:42:31
+All cards panel CardClass filter:All Cards At: 2020/05/07 00:42:33
+Direct buy:Polymorph At: 2020/05/07 00:47:29
+Card selected:Polymorph At: 2020/05/07 00:47:31
+Buy button:Clicked At: 2020/05/07 00:47:34
+Buy:Successful At: 2020/05/07 00:47:35
+Card selected:The Black Knight At: 2020/05/07 00:47:38
+Buy button:Clicked At: 2020/05/07 00:47:39
+Error:Not enough gems At: 2020/05/07 00:47:41
+Back button:Clicked At: 2020/05/07 00:47:45
+Menu:Collections At: 2020/05/07 00:47:48
+Panel:Decks At: 2020/05/07 00:47:49
+Deck selected:new paladin At: 2020/05/07 00:47:52
+Deck selected:new paladin At: 2020/05/07 00:47:52
+Panel:Create deck At: 2020/05/07 00:47:59
+Login At:2020/05/09 14:35:41
+Menu:Store At: 2020/05/09 14:35:46
+Card selected:Arcane Missiles At: 2020/05/09 14:35:59
+Card selected:Book of Specters At: 2020/05/09 14:36:03
+Card selected:Iron Fist At: 2020/05/09 14:36:04
+Card selected:Hellfire At: 2020/05/09 14:36:06
+Card selected:Sinister Strike At: 2020/05/09 14:36:10
+Card selected:Stonetusk Boar At: 2020/05/09 14:36:14
+Card selected:Friendly Smith At: 2020/05/09 14:36:14
+Card selected:Assassinate At: 2020/05/09 14:36:16
+Card selected:Hellfire At: 2020/05/09 14:36:17
+Card selected:Fireball At: 2020/05/09 14:36:18
+Buy button:Clicked At: 2020/05/09 14:36:21
+Buy:Successful At: 2020/05/09 14:36:23
+exiting game At: 2020/05/09 14:36:28
+
