@@ -9,41 +9,41 @@ public class StoreState extends State {
 
      List<String> getBuyableCards() {
         ArrayList<String> buyableCard = (ArrayList) allCardsName.clone();
-        for (String x : currentPlayer.getOwnedCardsName()) {
+        for (String x : playerHandler.getOwnedCardsName()) {
             buyableCard.remove(x);
         }
         return buyableCard;
     }
 
      List<String> getSalableCards() {
-        List<String> salableCards = (List) currentPlayer.getOwnedCardsName().clone();
+        List<String> salableCards = (List) playerHandler.getOwnedCardsName().clone();
         return salableCards;
     }
 
     // returns 1 is gems are not enough and 1 if action is successful
      int buyCard(String cardName) {
         Card card = cardUtilities.getCard(cardName);
-        if (currentPlayer.getGems() < card.getGemCost())
+        if (playerHandler.getGems() < card.getGemCost())
             return 0;
         else {
-            currentPlayer.setGems(currentPlayer.getGems() - card.getGemCost());
-            currentPlayer.getOwnedCardsName().add(cardName);
-            currentPlayer.getOwnedCards().add(card);
-            currentPlayer.saveInfo();
+            playerHandler.setGems(playerHandler.getGems() - card.getGemCost());
+            playerHandler.getOwnedCardsName().add(cardName);
+            playerHandler.getOwnedCards().add(card);
+            playerHandler.saveInfo();
             return 1;
         }
     }
 
      void sellCard(String cardName) {
         Card card = cardUtilities.getCard(cardName);
-        currentPlayer.setGems(currentPlayer.getGems() + card.getGemCost());
-        currentPlayer.deleteCard(cardName);
-        currentPlayer.saveInfo();
+        playerHandler.setGems(playerHandler.getGems() + card.getGemCost());
+        playerHandler.deleteCard(cardName);
+        playerHandler.saveInfo();
 
     }
 
      int getWallet() {
-        return currentPlayer.getGems();
+        return playerHandler.getGems();
     }
 
     int getCardCost(String cardName) {

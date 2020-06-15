@@ -23,7 +23,7 @@ public class PlayState extends State {
     // initializing play state
     void refreshState() {
         initAllPassives();
-        deckHero = currentPlayer.getCurrentDeck().getHero().toString();
+        deckHero = playerHandler.getCurrentDeck().getHero().toString();
         initCards();
         mana = 1;
         turn = 1;
@@ -32,7 +32,7 @@ public class PlayState extends State {
 
     // loads player deck cards
     private void initCards() {
-        deckCards = (ArrayList) currentPlayer.getCurrentDeck().getCardsName().clone();
+        deckCards = (ArrayList) playerHandler.getCurrentDeck().getCardsName().clone();
         Collections.shuffle(deckCards);
         groundCards = new ArrayList<>();
         handCards = new ArrayList<>();
@@ -55,7 +55,7 @@ public class PlayState extends State {
 
     // checking whether initialization is possible
     boolean isCurrentDeckReady() {
-        if (currentPlayer.getCurrentDeck() != null && currentPlayer.getCurrentDeck().getCards().size() >= 15) {
+        if (playerHandler.getCurrentDeck() != null && playerHandler.getCurrentDeck().getCards().size() >= 15) {
             return true;
         } else {
             return false;

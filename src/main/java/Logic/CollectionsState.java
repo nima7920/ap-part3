@@ -1,7 +1,5 @@
 package Logic;
 
-import GameHeros.HeroClass;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,11 +9,11 @@ public class CollectionsState extends State {
         List<String> cards = new ArrayList<>(), temp = new ArrayList<>();
         if (cardClass.equals("All")) {
             if (owned) {
-                cards = (ArrayList) currentPlayer.getOwnedCardsName().clone();
+                cards = (ArrayList) playerHandler.getOwnedCardsName().clone();
             } else {
                 temp = cardUtilities.getAllCardsName();
                 for (int i = 0; i < temp.size(); i++) {
-                    if (!currentPlayer.getOwnedCardsName().contains(temp.get(i)))
+                    if (!playerHandler.getOwnedCardsName().contains(temp.get(i)))
                         cards.add(temp.get(i));
                 }
             }
@@ -24,12 +22,12 @@ public class CollectionsState extends State {
             temp = cardUtilities.getCardsNameOfClass(cardClass);
             if (owned) {
                 for (int i = 0; i < temp.size(); i++) {
-                    if (currentPlayer.getOwnedCardsName().contains(temp.get(i)))
+                    if (playerHandler.getOwnedCardsName().contains(temp.get(i)))
                         cards.add(temp.get(i));
                 }
             } else {
                 for (int i = 0; i < temp.size(); i++) {
-                    if (!currentPlayer.getOwnedCardsName().contains(temp.get(i)))
+                    if (!playerHandler.getOwnedCardsName().contains(temp.get(i)))
                         cards.add(temp.get(i));
                 }
             }
@@ -59,38 +57,38 @@ public class CollectionsState extends State {
 
     // deck editing
     ArrayList<String> getDecks() {
-        return currentPlayer.getDeckNames();
+        return playerHandler.getDeckNames();
     }
 
      ArrayList<String> getDeckCards(String deckName) {
-        return currentPlayer.getDeckFromName(deckName).getCardsName();
+        return playerHandler.getDeckFromName(deckName).getCardsName();
     }
 
      String getDeckClass(String deckName) {
-        return currentPlayer.getDeckFromName(deckName).getHero().toString();
+        return playerHandler.getDeckFromName(deckName).getHero().toString();
     }
 
      boolean isCurrentDeck(String deckName) {
-        return (currentPlayer.getCurrentDeckName().equals(deckName));
+        return (playerHandler.getCurrentDeckName().equals(deckName));
     }
 
      void removeCardFromDeck(String deckName, String cardName) {
-        currentPlayer.getDeckFromName(deckName).removeCard(cardName);
+        playerHandler.getDeckFromName(deckName).removeCard(cardName);
     }
 
     // return 0 if deck is the current deck,and 1 if action is successful
      int deleteDeck(String deckName) {
 
-        return currentPlayer.deleteDeck(deckName);
+        return playerHandler.deleteDeck(deckName);
     }
 
      int renameDeck(String deckName, String newName) {
-        if (currentPlayer.getDeckNames().contains(newName.toLowerCase()))
+        if (playerHandler.getDeckNames().contains(newName.toLowerCase()))
             return 0;
         else {
-            currentPlayer.getDeckFromName(deckName).setName(newName.toLowerCase());
-            currentPlayer.getDeckNames().remove(deckName);
-            currentPlayer.getDeckNames().add(newName.toLowerCase());
+            playerHandler.getDeckFromName(deckName).setName(newName.toLowerCase());
+            playerHandler.getDeckNames().remove(deckName);
+            playerHandler.getDeckNames().add(newName.toLowerCase());
             return 1;
         }
 
@@ -98,11 +96,11 @@ public class CollectionsState extends State {
 
     ArrayList<String> getAddableCards(String deckName) {
         ArrayList<String> cardNames = new ArrayList<>();
-        ArrayList<String> deckCards = (ArrayList) currentPlayer.getDeckFromName(deckName).getCardsName().clone();
+        ArrayList<String> deckCards = (ArrayList) playerHandler.getDeckFromName(deckName).getCardsName().clone();
         ArrayList<String> neutralCards = (ArrayList) cardUtilities.getCardsNameOfClass("Neutral");
-        String deckHero = currentPlayer.getDeckFromName(deckName).getHero().toString();
+        String deckHero = playerHandler.getDeckFromName(deckName).getHero().toString();
         ArrayList<String> deckHeroCards = (ArrayList) cardUtilities.getCardsNameOfClass(deckHero);
-        ArrayList<String> playerCards=(ArrayList) currentPlayer.getOwnedCardsName().clone();
+        ArrayList<String> playerCards=(ArrayList) playerHandler.getOwnedCardsName().clone();
         for (int i = 0; i < neutralCards.size(); i++) {
             if (deckCards.indexOf(neutralCards.get(i)) == deckCards.lastIndexOf(neutralCards.get(i)) && deckCards.indexOf(neutralCards.get(i)) == -1) {
                 cardNames.add(neutralCards.get(i));
@@ -130,20 +128,20 @@ public class CollectionsState extends State {
 
     // return -2 if deck is full,-1 if card class doesn't match,0 if there are two cards of this type,and 1 if action is successful
     int addCardToDeck(String deckName, String cardName) {
-        int a = currentPlayer.getDeckFromName(deckName).addCard(cardName);
-        currentPlayer.saveInfo();
+        int a = playerHandler.getDeckFromName(deckName).addCard(cardName);
+        playerHandler.saveInfo();
         return a;
     }
 
 // returns -1 if there are 10 decks,0 if deckName already exists,1 if action is successful
 
      int createDeck(String deckName, String deckClass) {
-        return currentPlayer.createDeck(deckName, deckClass);
+        return playerHandler.createDeck(deckName, deckClass);
     }
 
     int setCurrentDeck(String deckName) {
 
-        return currentPlayer.setCurrentDeckName(deckName);
+        return playerHandler.setCurrentDeckName(deckName);
     }
 
 }
