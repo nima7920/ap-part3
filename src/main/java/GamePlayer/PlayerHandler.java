@@ -53,6 +53,7 @@ public class PlayerHandler {
             currentPlayer.setName( username);
             currentPlayer.setPassword(password);
             currentPlayer.setGems(100);
+            currentPlayer.setCurrentDeckName("");
             this.decks = new ArrayList<>();
             this.ownedCards = new ArrayList<>();
             this.currentDeck = null;
@@ -138,10 +139,11 @@ public class PlayerHandler {
             currentPlayer.setOwnedCardsName(tempPlayer.getOwnedCardsName());
             decks = new ArrayList<>();
             ownedCards = new ArrayList<>();
-            setCurrentDeckName(tempPlayer.getCurrentDeckName());
+
             currentPlayer.setDeckNames(tempPlayer.getDeckNames());
             loadDecks(gson);
             loadAllCards();
+            setCurrentDeckName(tempPlayer.getCurrentDeckName());
 
         } catch (IOException e) {
 
