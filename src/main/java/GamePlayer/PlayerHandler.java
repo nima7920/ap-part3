@@ -3,7 +3,7 @@ package GamePlayer;
 import GameCards.Card;
 import GameCards.CardUtilities;
 import GameHeros.HeroClass;
-import Logic.ModelConsts;
+import Logic_menus.ModelConsts;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

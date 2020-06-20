@@ -1,6 +1,4 @@
-import GUI.GameScreen;
-import GameCards.CardClass;
-import GameCards.CardUtilities;
+import GUI_menus.GameScreen;
 
 
 public class Main {

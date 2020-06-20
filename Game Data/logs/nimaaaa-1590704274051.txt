@@ -73,3 +73,13 @@ exiting game At: 2020/06/11 21:40:04
 Login At:2020/06/16 01:48:48
 exiting game At: 2020/06/16 01:48:51
 
+Login At:2020/06/20 18:58:07
+Menu:Status At: 2020/06/20 18:58:12
+Back button:Clicked At: 2020/06/20 18:58:14
+Menu:Collections At: 2020/06/20 18:58:15
+Back button:back to main menu At: 2020/06/20 18:58:18
+Menu:Store At: 2020/06/20 18:58:19
+Back button:Clicked At: 2020/06/20 18:58:22
+Menu:Collections;current deck is not ready for playing At: 2020/06/20 18:58:23
+exiting game At: 2020/06/20 18:58:27
+
