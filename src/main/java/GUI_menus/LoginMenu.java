@@ -1,6 +1,7 @@
 package GUI_menus;
 
 import GUI_components.GUIConsts;
+import GUI_components.Message;
 
 import javax.swing.*;
 import java.awt.event.*;

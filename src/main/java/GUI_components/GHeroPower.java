@@ -1,5 +1,6 @@
-package GUI_menus;
+package GUI_components;
 
+import GUI_components.GCard;
 import GUI_components.GUIConsts;
 
 import java.awt.*;

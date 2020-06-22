@@ -1,4 +1,4 @@
-package GUI_menus;
+package GUI_components;
 import GUI_components.GUIConsts;
 
 import javax.imageio.ImageIO;

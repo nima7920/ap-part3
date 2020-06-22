@@ -1,6 +1,6 @@
 package GUI_menus;
 
-import GUI_components.GUIConsts;
+import GUI_components.*;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

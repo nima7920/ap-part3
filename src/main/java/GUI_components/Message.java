@@ -1,4 +1,4 @@
-package GUI_menus;
+package GUI_components;
 
 import javax.swing.*;
 

@@ -1,6 +1,9 @@
 package GUI_menus;
 
+import GUI_components.GCard;
+import GUI_components.GHero;
 import GUI_components.GUIConsts;
+import GUI_components.Message;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
