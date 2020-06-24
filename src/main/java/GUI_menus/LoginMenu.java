@@ -88,7 +88,7 @@ public class LoginMenu extends GameMenu {
                             break;
                         }
                         case 1: { // login successful,going to the main menu
-GameScreen.getInstance().initMenus();
+//GameScreen.getInstance().initMenus();
                             GameScreen.getInstance().gotoMenu("main");
                             break;
                         }
@@ -100,7 +100,7 @@ GameScreen.getInstance().initMenus();
                             Message.showErrorMessage("","Account already exists");
                             break;
                         } case 1:{ // sign up successfully
-                            GameScreen.getInstance().initMenus();
+//                            GameScreen.getInstance().initMenus();
                             GameScreen.getInstance().gotoMenu("main");
                             break;
                         }

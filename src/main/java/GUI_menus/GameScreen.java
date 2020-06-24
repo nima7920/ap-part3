@@ -46,6 +46,8 @@ public class GameScreen {
 //
         gameFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gameFrame.setVisible(true);
+        menus=new HashMap<>();
+        initMenuMap();
     }
 
      void initMenus() {
@@ -82,6 +84,7 @@ public class GameScreen {
 
     void gotoMenu(String menuName) {
         gameFrame.getContentPane().removeAll();
+        initMenu(menuName);
         currentMenu = menus.get(menuName);
         gameFrame.setSize(currentMenu.getSize());
         currentMenu.setVisible(true);
@@ -90,6 +93,43 @@ public class GameScreen {
         currentMenu.repaint();
         gameFrame.setLocationRelativeTo(null);
 
+    }
+
+    private void initMenu(String menuName) {
+        if (menus.get(menuName) == null) {
+            switch (menuName) {
+                case "login": {
+                    loginMenu = new LoginMenu();
+                    menus.put(menuName, loginMenu);
+                    break;
+                }
+                case "main": {
+                    mainMenu = new MainMenu();
+                    menus.put(menuName, mainMenu);
+                    break;
+                }
+                case "play": {
+                    playMenu = new PlayMenu();
+                    menus.put(menuName, playMenu);
+                    break;
+                }
+                case "store": {
+                    storeMenu = new StoreMenu();
+                    menus.put(menuName, storeMenu);
+                    break;
+                }
+                case "collections": {
+                    collectionsMenu = new CollectionsMenu();
+                    menus.put(menuName, collectionsMenu);
+                    break;
+                }
+                case "status": {
+                    statusMenu = new StatusMenu();
+                    menus.put(menuName, statusMenu);
+                    break;
+                }
+            }
+        }
     }
     void refreshPlayMenu(){
         playMenu.refresh();

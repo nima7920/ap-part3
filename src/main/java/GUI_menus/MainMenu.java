@@ -92,8 +92,9 @@ public class MainMenu extends GameMenu {
                 if (admin.isCurrentDeckReady()) { // entering play menu
                     admin.writeLog("Menu", "Play;current deck is ready");
                     admin.refreshPlayState();
-                    GameScreen.getInstance().refreshPlayMenu();
                     GameScreen.getInstance().gotoMenu("play");
+                    GameScreen.getInstance().refreshPlayMenu();
+
                 } else {
                     admin.writeLog("Menu", "Collections;current deck is not ready for playing");
                     GameScreen.getInstance().gotoMenu("collections");
@@ -105,8 +106,8 @@ public class MainMenu extends GameMenu {
 
             } else if (e.getSource() == statusButton) {
                 admin.writeLog("Menu", "Status");
-                GameScreen.getInstance().refreshStatusMenu();
                 GameScreen.getInstance().gotoMenu("status");
+                GameScreen.getInstance().refreshStatusMenu();
 
             } else if (e.getSource() == collectionsButton) {
 
