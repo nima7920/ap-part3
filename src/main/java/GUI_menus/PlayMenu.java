@@ -20,9 +20,9 @@ public class PlayMenu extends GameMenu {
     public PlayMenu() {
         action = new Actions();
         setLayout(null);
-        setBounds(GUIConsts.playMenu.menuBounds);
-        setSize(GUIConsts.playMenu.menuSize);
-        setPreferredSize(GUIConsts.playMenu.menuSize);
+        setBounds(GUIConfigLoader.playMenu.menuBounds);
+        setSize(GUIConfigLoader.playMenu.menuSize);
+        setPreferredSize(GUIConfigLoader.playMenu.menuSize);
         initComponents();
     }
 
@@ -49,8 +49,8 @@ public class PlayMenu extends GameMenu {
 
     private void paintGraphics(Graphics2D g2d) {
         try {
-            BufferedImage backgroundImage = ImageIO.read(GUIConsts.playMenu.menuBackground_image);
-            g2d.drawImage(backgroundImage, 0, 0, GUIConsts.playMenu.menuBounds.width, GUIConsts.playMenu.menuBounds.height, null);
+            BufferedImage backgroundImage = ImageIO.read(GUIConfigLoader.playMenu.menuBackground_image);
+            g2d.drawImage(backgroundImage, 0, 0, GUIConfigLoader.playMenu.menuBounds.width, GUIConfigLoader.playMenu.menuBounds.height, null);
 
         } catch (IOException e) {
 
@@ -82,7 +82,7 @@ public class PlayMenu extends GameMenu {
 
         public Playground() {
             setLayout(null);
-            setBounds(GUIConsts.playMenu.playground_bounds);
+            setBounds(GUIConfigLoader.playMenu.playground_bounds);
             gameEventsName = new ArrayList<>();
             addMouseMotionListener(action);
             addMouseListener(action);
@@ -93,39 +93,39 @@ public class PlayMenu extends GameMenu {
         private void initComponents() {
             // end turn button,back button
             endTurnButton = new JButton("end turn");
-            endTurnButton.setBounds(GUIConsts.playMenu.endTurnButton_bounds);
+            endTurnButton.setBounds(GUIConfigLoader.playMenu.endTurnButton_bounds);
             endTurnButton.addActionListener(action);
             add(endTurnButton);
 
             backButton = new JButton("Back");
-            backButton.setBounds(GUIConsts.playMenu.backButton_bounds);
+            backButton.setBounds(GUIConfigLoader.playMenu.backButton_bounds);
             backButton.addActionListener(action);
             add(backButton);
 
             // mana,hero hp,remaining cards labels
             heroHpLabel = new JLabel("30");
-            heroHpLabel.setBounds(GUIConsts.playMenu.heroHpLabel_bounds);
+            heroHpLabel.setBounds(GUIConfigLoader.playMenu.heroHpLabel_bounds);
 //            heroHpLabel.setVisible(true);
-            heroHpLabel.setFont(GUIConsts.playMenu.heroHpLabel_font);
-            heroHpLabel.setForeground(GUIConsts.playMenu.heroHpLabel_foreColor);
+            heroHpLabel.setFont(GUIConfigLoader.playMenu.heroHpLabel_font);
+            heroHpLabel.setForeground(GUIConfigLoader.playMenu.heroHpLabel_foreColor);
             add(heroHpLabel);
 
             manaLabel = new JLabel("1");
-            manaLabel.setBounds(GUIConsts.playMenu.manaLabel_bounds);
-            manaLabel.setFont(GUIConsts.playMenu.manaLabel_font);
-            manaLabel.setForeground(GUIConsts.playMenu.manaLabel_foreColor);
+            manaLabel.setBounds(GUIConfigLoader.playMenu.manaLabel_bounds);
+            manaLabel.setFont(GUIConfigLoader.playMenu.manaLabel_font);
+            manaLabel.setForeground(GUIConfigLoader.playMenu.manaLabel_foreColor);
             add(manaLabel);
 
             remainingCardsLabel = new JLabel("Cards in Deck:");
-            remainingCardsLabel.setBounds(GUIConsts.playMenu.remainingCard_bounds);
-            remainingCardsLabel.setFont(GUIConsts.playMenu.remainingCardsLabel_font);
-            remainingCardsLabel.setForeground(GUIConsts.playMenu.remainingCardsLabel_foreColor);
+            remainingCardsLabel.setBounds(GUIConfigLoader.playMenu.remainingCard_bounds);
+            remainingCardsLabel.setFont(GUIConfigLoader.playMenu.remainingCardsLabel_font);
+            remainingCardsLabel.setForeground(GUIConfigLoader.playMenu.remainingCardsLabel_foreColor);
             add(remainingCardsLabel);
 
             // event list
             eventsPane = new JScrollPane();
             gameEvents = new JList<>();
-            eventsPane.setBounds(GUIConsts.playMenu.gameEventList_bounds);
+            eventsPane.setBounds(GUIConfigLoader.playMenu.gameEventList_bounds);
             eventsPane.setViewportView(gameEvents);
             gameEvents.setLayoutOrientation(JList.VERTICAL);
             add(eventsPane);
@@ -133,7 +133,7 @@ public class PlayMenu extends GameMenu {
 
 
         private void setCardOverview(int i) {
-            cardOverview = new GCard(GUIConsts.playMenu.cardOverview_size, handCards[i].getCardName(), GUIConsts.playMenu.cardOverview_location);
+            cardOverview = new GCard(GUIConfigLoader.playMenu.cardOverview_size, handCards[i].getCardName(), GUIConfigLoader.playMenu.cardOverview_location);
             repaint();
         }
 
@@ -152,15 +152,15 @@ public class PlayMenu extends GameMenu {
         private void updateGCards_GHero() {
             handCards = new GCard[12];
             groundCards = new GCard[7];
-            playerHero = new GHero(GUIConsts.playMenu.playerHero_size, playerHeroName, GUIConsts.playMenu.playerHero_location);
-            heroPower = new GHeroPower(GUIConsts.playMenu.heroPower_size, playerHeroName, GUIConsts.playMenu.heroPower_location);
+            playerHero = new GHero(GUIConfigLoader.playMenu.playerHero_size, playerHeroName, GUIConfigLoader.playMenu.playerHero_location);
+            heroPower = new GHeroPower(GUIConfigLoader.playMenu.heroPower_size, playerHeroName, GUIConfigLoader.playMenu.heroPower_location);
             for (int i = 0; i < handCardsName.size(); i++) {
-                handCards[i] = new GCard(GUIConsts.playMenu.handCard_size, handCardsName.get(i), GUIConsts.playMenu.handCards_location[i]);
+                handCards[i] = new GCard(GUIConfigLoader.playMenu.handCard_size, handCardsName.get(i), GUIConfigLoader.playMenu.handCards_location[i]);
             }
             for (int i = 0; i < groundCardsName.size(); i++) {
-                groundCards[i] = new GCard(GUIConsts.playMenu.groundCard_size,
+                groundCards[i] = new GCard(GUIConfigLoader.playMenu.groundCard_size,
                         groundCardsName.get(i),
-                        GUIConsts.playMenu.groundCards_location[i]);
+                        GUIConfigLoader.playMenu.groundCards_location[i]);
             }
         }
 
@@ -176,7 +176,7 @@ public class PlayMenu extends GameMenu {
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
             Graphics2D g2d = addRenderingHint(g);
-            g2d.drawImage(new ImageIcon(GUIConsts.playMenu.backgroundImage.getPath()).getImage(), 0, 0, 1200, 700, null);
+            g2d.drawImage(new ImageIcon(GUIConfigLoader.playMenu.backgroundImage.getPath()).getImage(), 0, 0, 1200, 700, null);
 
             paintCards_Hero(g2d);
             if (cardOverview != null)
@@ -215,8 +215,8 @@ public class PlayMenu extends GameMenu {
         public PassivePanel() {
             setLayout(null);
 
-            setBounds(GUIConsts.playMenu.passivePanel_bounds);
-            setBorder(GUIConsts.playMenu.passivePanel_border);
+            setBounds(GUIConfigLoader.playMenu.passivePanel_bounds);
+            setBorder(GUIConfigLoader.playMenu.passivePanel_border);
             setOpaque(false);
             initButtons();
 
@@ -224,22 +224,22 @@ public class PlayMenu extends GameMenu {
 
         private void initButtons() {
             passive1 = new JButton(admin.getPassiveText(0));
-            passive1.setBounds(GUIConsts.playMenu.passive1Button_bounds);
+            passive1.setBounds(GUIConfigLoader.playMenu.passive1Button_bounds);
             passive1.addActionListener(action);
             add(passive1);
 
             passive2 = new JButton(admin.getPassiveText(1));
-            passive2.setBounds(GUIConsts.playMenu.passive2Button_bounds);
+            passive2.setBounds(GUIConfigLoader.playMenu.passive2Button_bounds);
             passive2.addActionListener(action);
             add(passive2);
 
             passive3 = new JButton(admin.getPassiveText(2));
-            passive3.setBounds(GUIConsts.playMenu.passive3Button_bounds);
+            passive3.setBounds(GUIConfigLoader.playMenu.passive3Button_bounds);
             passive3.addActionListener(action);
             add(passive3);
 
             passiveBackButton = new JButton("Back");
-            passiveBackButton.setBounds(GUIConsts.playMenu.passiveBackButton_bounds);
+            passiveBackButton.setBounds(GUIConfigLoader.playMenu.passiveBackButton_bounds);
             passiveBackButton.addActionListener(action);
             add(passiveBackButton);
 

@@ -1,6 +1,6 @@
 package GUI_menus;
 
-import GUI_components.GUIConsts;
+import GUI_components.GUIConfigLoader;
 import GUI_components.Message;
 
 import javax.swing.*;
@@ -14,7 +14,7 @@ public class LoginMenu extends GameMenu {
 
     public LoginMenu() {
         // setting buttons:
-        setBounds(GUIConsts.loginMenu.menuBounds);
+        setBounds(GUIConfigLoader.loginMenu.menuBounds);
         setLayout(null);
         initButtons();
         initLabels();
@@ -28,12 +28,12 @@ public class LoginMenu extends GameMenu {
         actions = new Actions();
 
         loginButton = new JButton("Login");
-        loginButton.setBounds(GUIConsts.loginMenu.loginButton_bounds);
+        loginButton.setBounds(GUIConfigLoader.loginMenu.loginButton_bounds);
         loginButton.addActionListener(actions);
         add(loginButton);
 
         createButton = new JButton("Sign up");
-        createButton.setBounds(GUIConsts.loginMenu.createButton_bounds);
+        createButton.setBounds(GUIConfigLoader.loginMenu.createButton_bounds);
         createButton.addActionListener(actions);
         add(createButton);
 
@@ -41,29 +41,29 @@ public class LoginMenu extends GameMenu {
 
     private void initLabels() {
         welcomeLabel = new JLabel("Welcome to HearthStone!!");
-        welcomeLabel.setBounds(GUIConsts.loginMenu.welcomeLabel_bounds);
-        welcomeLabel.setFont(GUIConsts.loginMenu.welcomeLabel_font);
+        welcomeLabel.setBounds(GUIConfigLoader.loginMenu.welcomeLabel_bounds);
+        welcomeLabel.setFont(GUIConfigLoader.loginMenu.welcomeLabel_font);
         add(welcomeLabel);
 
         usernameLabel = new JLabel("Username:");
-        usernameLabel.setBounds(GUIConsts.loginMenu.usernameLabel_bounds);
-        usernameLabel.setFont(GUIConsts.loginMenu.usernameLabel_font);
+        usernameLabel.setBounds(GUIConfigLoader.loginMenu.usernameLabel_bounds);
+        usernameLabel.setFont(GUIConfigLoader.loginMenu.usernameLabel_font);
         add(usernameLabel);
 
         passwordLabel = new JLabel("Password:");
-        passwordLabel.setBounds(GUIConsts.loginMenu.passwordLabel_bounds);
-        passwordLabel.setFont(GUIConsts.loginMenu.passwordLabel_font);
+        passwordLabel.setBounds(GUIConfigLoader.loginMenu.passwordLabel_bounds);
+        passwordLabel.setFont(GUIConfigLoader.loginMenu.passwordLabel_font);
         add(passwordLabel);
 
     }
 
     private void initTextFields() {
         userNameField = new JTextField();
-        userNameField.setBounds(GUIConsts.loginMenu.usernameField_bounds);
+        userNameField.setBounds(GUIConfigLoader.loginMenu.usernameField_bounds);
         add(userNameField);
 
         passwordField = new JTextField();
-        passwordField.setBounds(GUIConsts.loginMenu.passwordField_bounds);
+        passwordField.setBounds(GUIConfigLoader.loginMenu.passwordField_bounds);
         add(passwordField);
 
     }

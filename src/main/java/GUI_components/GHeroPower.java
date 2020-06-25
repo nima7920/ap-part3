@@ -1,8 +1,5 @@
 package GUI_components;
 
-import GUI_components.GCard;
-import GUI_components.GUIConsts;
-
 import java.awt.*;
 import java.io.File;
 
@@ -18,6 +15,6 @@ public class GHeroPower extends GCard {
 
     @Override
     protected File getImageFile() {
-        return GUIConsts.gHeroPower.getFile(getCardName());
+        return GUIConfigLoader.gHeroPower.getFile(getCardName());
     }
 }

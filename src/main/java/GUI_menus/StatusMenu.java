@@ -1,6 +1,6 @@
 package GUI_menus;
 
-import GUI_components.GUIConsts;
+import GUI_components.GUIConfigLoader;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -25,7 +25,7 @@ public class StatusMenu extends GameMenu {
 
     public StatusMenu() {
         setLayout(null);
-        setBounds(GUIConsts.statusMenu.menu_bounds);
+        setBounds(GUIConfigLoader.statusMenu.menu_bounds);
         actions = new Actions();
         initComponents();
         initTables();
@@ -36,12 +36,12 @@ public class StatusMenu extends GameMenu {
 
 
         backButton = new JButton("Back");
-        backButton.setBounds(GUIConsts.statusMenu.backButton_bounds);
+        backButton.setBounds(GUIConfigLoader.statusMenu.backButton_bounds);
         backButton.addActionListener(actions);
         add(backButton);
 
         exitButton = new JButton("Exit");
-        exitButton.setBounds(GUIConsts.statusMenu.exitButton_bounds);
+        exitButton.setBounds(GUIConfigLoader.statusMenu.exitButton_bounds);
         exitButton.addActionListener(actions);
         add(exitButton);
 
@@ -52,20 +52,20 @@ public class StatusMenu extends GameMenu {
      void initTables() {
         topDecksTable = new JTable(admin.getRankedDecks(), topDecksRow);
 
-        topDecksTable.setBorder(GUIConsts.statusMenu.topDecksTable_border);
+        topDecksTable.setBorder(GUIConfigLoader.statusMenu.topDecksTable_border);
         topDecksTable.setEnabled(false);
-        topDecksTable.setForeground(GUIConsts.generalLabel_foreColor);
-        topDecksPane.setBounds(GUIConsts.statusMenu.topDecksTable_bounds);
+        topDecksTable.setForeground(GUIConfigLoader.generalLabel_foreColor);
+        topDecksPane.setBounds(GUIConfigLoader.statusMenu.topDecksTable_bounds);
         topDecksPane.setViewportView(topDecksTable);
         topDecksPane.setOpaque(false); topDecksPane.getViewport().setOpaque(false);
         add(topDecksPane);
 
 
         decksStatusTable = new JTable(admin.getDecksStatus(), decksStatusRow);
-        decksStatusTable.setBorder(GUIConsts.statusMenu.decksStatusTable_border);
+        decksStatusTable.setBorder(GUIConfigLoader.statusMenu.decksStatusTable_border);
         decksStatusTable.setEnabled(false);
-        decksStatusTable.setForeground(GUIConsts.generalLabel_foreColor);
-        decksStatusPane.setBounds(GUIConsts.statusMenu.decksStatusTableTable_bounds);
+        decksStatusTable.setForeground(GUIConfigLoader.generalLabel_foreColor);
+        decksStatusPane.setBounds(GUIConfigLoader.statusMenu.decksStatusTableTable_bounds);
         decksStatusPane.setViewportView(decksStatusTable);
         decksStatusPane.setOpaque(false); decksStatusPane.getViewport().setOpaque(false);
         add(decksStatusPane);
@@ -81,8 +81,8 @@ public class StatusMenu extends GameMenu {
 
     private void paintGraphics(Graphics2D g2d) {
         try {
-            BufferedImage backgroundImage = ImageIO.read(GUIConsts.statusMenu.background_image);
-            g2d.drawImage(backgroundImage, 0, 0, GUIConsts.statusMenu.menu_bounds.width, GUIConsts.statusMenu.menu_bounds.height, null);
+            BufferedImage backgroundImage = ImageIO.read(GUIConfigLoader.statusMenu.background_image);
+            g2d.drawImage(backgroundImage, 0, 0, GUIConfigLoader.statusMenu.menu_bounds.width, GUIConfigLoader.statusMenu.menu_bounds.height, null);
 
         } catch (IOException e) {
 

@@ -1,7 +1,7 @@
 package GUI_menus;
 
 import GUI_components.GCard;
-import GUI_components.GUIConsts;
+import GUI_components.GUIConfigLoader;
 import GUI_components.Message;
 
 import javax.imageio.ImageIO;
@@ -46,9 +46,9 @@ public class StoreMenu extends GameMenu {
 
     private void initMenu() {
         setLayout(null);
-        setBounds(GUIConsts.storeMenu.menuBounds);
-        setSize(GUIConsts.storeMenu.menuSize);
-        setPreferredSize(GUIConsts.storeMenu.menuSize);
+        setBounds(GUIConfigLoader.storeMenu.menuBounds);
+        setSize(GUIConfigLoader.storeMenu.menuSize);
+        setPreferredSize(GUIConfigLoader.storeMenu.menuSize);
         initShowcase();
         initButtons();
         add(showCase);
@@ -62,7 +62,7 @@ public class StoreMenu extends GameMenu {
 
     private void initShowcase() {
         showCase = new JScrollPane();
-        showCase.setBounds(GUIConsts.storeMenu.showcase_bounds);
+        showCase.setBounds(GUIConfigLoader.storeMenu.showcase_bounds);
         showCase.setHorizontalScrollBar(null);
         showCase.setViewportView(sellPanel);
         showCase.setOpaque(false);
@@ -76,22 +76,22 @@ public class StoreMenu extends GameMenu {
     private void initButtons() {
 // buyCardButton:
         buyCardButton = new JButton("Buy Card");
-        buyCardButton.setBounds(GUIConsts.storeMenu.buyCardButton_bounds);
+        buyCardButton.setBounds(GUIConfigLoader.storeMenu.buyCardButton_bounds);
         buyCardButton.addActionListener(actions);
         add(buyCardButton);
         // sellCardButton:
         sellCardButton = new JButton("Sell Card");
-        sellCardButton.setBounds(GUIConsts.storeMenu.sellCardButton_bounds);
+        sellCardButton.setBounds(GUIConfigLoader.storeMenu.sellCardButton_bounds);
         sellCardButton.addActionListener(actions);
         add(sellCardButton);
 // backButton
         backButton = new JButton("Back");
-        backButton.setBounds(GUIConsts.storeMenu.backButton_bounds);
+        backButton.setBounds(GUIConfigLoader.storeMenu.backButton_bounds);
         backButton.addActionListener(actions);
         add(backButton);
         // exit button
         exitButton = new JButton("Exit");
-        exitButton.setBounds(GUIConsts.storeMenu.exitButton_bounds);
+        exitButton.setBounds(GUIConfigLoader.storeMenu.exitButton_bounds);
         exitButton.addActionListener(actions);
         add(exitButton);
 
@@ -104,10 +104,10 @@ public class StoreMenu extends GameMenu {
         buyableGCards = new ArrayList<>();
         salableGCards = new ArrayList<>();
         for (int i = 0; i < buyableCards.size(); i++) {
-            buyableGCards.add(new GCard(GUIConsts.storeMenu.buy_sellImage_dimension, buyableCards.get(i), cardPos(i)));
+            buyableGCards.add(new GCard(GUIConfigLoader.storeMenu.buy_sellImage_dimension, buyableCards.get(i), cardPos(i)));
         }
         for (int i = 0; i < salableCards.size(); i++) {
-            salableGCards.add(new GCard(GUIConsts.storeMenu.buy_sellImage_dimension, salableCards.get(i), cardPos(i)));
+            salableGCards.add(new GCard(GUIConfigLoader.storeMenu.buy_sellImage_dimension, salableCards.get(i), cardPos(i)));
         }
     }
 
@@ -120,8 +120,8 @@ public class StoreMenu extends GameMenu {
 
     private void paintGraphics(Graphics2D g2d) {
         try {
-            BufferedImage backgroundImage = ImageIO.read(GUIConsts.storeMenu.background_image);
-            g2d.drawImage(backgroundImage, 0, 0, GUIConsts.storeMenu.menuBounds.width, GUIConsts.storeMenu.menuBounds.height, null);
+            BufferedImage backgroundImage = ImageIO.read(GUIConfigLoader.storeMenu.background_image);
+            g2d.drawImage(backgroundImage, 0, 0, GUIConfigLoader.storeMenu.menuBounds.width, GUIConfigLoader.storeMenu.menuBounds.height, null);
 
         } catch (IOException e) {
 
@@ -137,15 +137,15 @@ public class StoreMenu extends GameMenu {
         }
 
         private void initPanel() {
-            setBounds(GUIConsts.storeMenu.buy_sellPanel_bounds);
-            setPreferredSize(GUIConsts.storeMenu.buy_sellPanel_size);
+            setBounds(GUIConfigLoader.storeMenu.buy_sellPanel_bounds);
+            setPreferredSize(GUIConfigLoader.storeMenu.buy_sellPanel_size);
             setOpaque(false);
             addMouseListener(actions);
         }
 
         private void updateScrolls(int y) {
-            setPreferredSize(new Dimension(GUIConsts.storeMenu.buy_sellPanel_size.width,
-                    Math.max(GUIConsts.storeMenu.buy_sellPanel_size.height, y)));
+            setPreferredSize(new Dimension(GUIConfigLoader.storeMenu.buy_sellPanel_size.width,
+                    Math.max(GUIConfigLoader.storeMenu.buy_sellPanel_size.height, y)));
             showCase.setViewportView(this);
             repaint();
         }
@@ -170,15 +170,15 @@ public class StoreMenu extends GameMenu {
         }
 
         private void initPanel() {
-            setBounds(GUIConsts.storeMenu.buy_sellPanel_bounds);
-            setPreferredSize(GUIConsts.storeMenu.buy_sellPanel_size);
+            setBounds(GUIConfigLoader.storeMenu.buy_sellPanel_bounds);
+            setPreferredSize(GUIConfigLoader.storeMenu.buy_sellPanel_size);
             setOpaque(false);
             addMouseListener(actions);
         }
 
         private void updateScrolls(int y) {
-            setPreferredSize(new Dimension(GUIConsts.storeMenu.buy_sellPanel_size.width,
-                    Math.max(GUIConsts.storeMenu.buy_sellPanel_size.height, y)));
+            setPreferredSize(new Dimension(GUIConfigLoader.storeMenu.buy_sellPanel_size.width,
+                    Math.max(GUIConfigLoader.storeMenu.buy_sellPanel_size.height, y)));
             showCase.setViewportView(this);
             repaint();
         }
@@ -207,8 +207,8 @@ public class StoreMenu extends GameMenu {
         }
 
         private void initPanel() {
-            setBounds(GUIConsts.storeMenu.infoPanel_bounds);
-            setBorder(GUIConsts.storeMenu.infoPanel_border);
+            setBounds(GUIConfigLoader.storeMenu.infoPanel_bounds);
+            setBorder(GUIConfigLoader.storeMenu.infoPanel_border);
             setOpaque(false);
             setLayout(null);
             initLabels();
@@ -218,30 +218,30 @@ public class StoreMenu extends GameMenu {
         private void initLabels() {
 // wallet label
             walletLabel = new JLabel("Wallet:" + admin.getPlayerWallet());
-            walletLabel.setBounds(GUIConsts.storeMenu.walletLabel_bounds);
-            walletLabel.setForeground(GUIConsts.generalLabel_foreColor);
+            walletLabel.setBounds(GUIConfigLoader.storeMenu.walletLabel_bounds);
+            walletLabel.setForeground(GUIConfigLoader.generalLabel_foreColor);
             add(walletLabel);
 // rarity label
             rarityLabel = new JLabel("Rarity: ");
-            rarityLabel.setBounds(GUIConsts.storeMenu.rarityLabel_bounds);
-            rarityLabel.setForeground(GUIConsts.generalLabel_foreColor);
+            rarityLabel.setBounds(GUIConfigLoader.storeMenu.rarityLabel_bounds);
+            rarityLabel.setForeground(GUIConfigLoader.generalLabel_foreColor);
             add(rarityLabel);
             // class label
             classLabel = new JLabel("Class: ");
-            classLabel.setBounds(GUIConsts.storeMenu.classLabel_bounds);
-            classLabel.setForeground(GUIConsts.generalLabel_foreColor);
+            classLabel.setBounds(GUIConfigLoader.storeMenu.classLabel_bounds);
+            classLabel.setForeground(GUIConfigLoader.generalLabel_foreColor);
             add(classLabel);
             // cost label
             costLabel = new JLabel("Cost: ");
-            costLabel.setBounds(GUIConsts.storeMenu.costLabel_bounds);
-            costLabel.setForeground(GUIConsts.generalLabel_foreColor);
+            costLabel.setBounds(GUIConfigLoader.storeMenu.costLabel_bounds);
+            costLabel.setForeground(GUIConfigLoader.generalLabel_foreColor);
             add(costLabel);
 
         }
 
         private void initButtons() {
             buy_sellButton = new JButton("Buy");
-            buy_sellButton.setBounds(GUIConsts.storeMenu.buy_sellButton_bounds);
+            buy_sellButton.setBounds(GUIConfigLoader.storeMenu.buy_sellButton_bounds);
             buy_sellButton.addActionListener(actions);
             add(buy_sellButton);
 
@@ -253,7 +253,7 @@ public class StoreMenu extends GameMenu {
                 selectedCard = null;
             } else {
                 selectedCardName = cardName;
-                selectedCard = new GCard(GUIConsts.storeMenu.infoImageBox_size, selectedCardName, GUIConsts.storeMenu.infoImageBox_location);
+                selectedCard = new GCard(GUIConfigLoader.storeMenu.infoImageBox_size, selectedCardName, GUIConfigLoader.storeMenu.infoImageBox_location);
             }
             updateLabels();
             repaint();
@@ -278,11 +278,11 @@ public class StoreMenu extends GameMenu {
     }
 
     private Point cardPos(int i) {
-        int column = i % GUIConsts.storeMenu.buy_sellImage_row, row = i / GUIConsts.storeMenu.buy_sellImage_row;
-        int x = GUIConsts.storeMenu.buy_sellImage_horizontalAlign +
-                column * (GUIConsts.storeMenu.buy_sellImage_dimension.width + GUIConsts.storeMenu.buy_sellImage_horizontalAlign);
-        int y = GUIConsts.storeMenu.buy_sellImage_verticalAlign +
-                row * (GUIConsts.storeMenu.buy_sellImage_dimension.height + GUIConsts.storeMenu.buy_sellImage_verticalAlign);
+        int column = i % GUIConfigLoader.storeMenu.buy_sellImage_row, row = i / GUIConfigLoader.storeMenu.buy_sellImage_row;
+        int x = GUIConfigLoader.storeMenu.buy_sellImage_horizontalAlign +
+                column * (GUIConfigLoader.storeMenu.buy_sellImage_dimension.width + GUIConfigLoader.storeMenu.buy_sellImage_horizontalAlign);
+        int y = GUIConfigLoader.storeMenu.buy_sellImage_verticalAlign +
+                row * (GUIConfigLoader.storeMenu.buy_sellImage_dimension.height + GUIConfigLoader.storeMenu.buy_sellImage_verticalAlign);
         return new Point(x, y);
 
     }

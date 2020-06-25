@@ -1,5 +1,4 @@
 package GUI_components;
-import GUI_components.GUIConsts;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -23,7 +22,7 @@ public class GCard {
         this.yPos = yPos;
         cardBox = new Rectangle(xPos, yPos, cardDimension.width, cardDimension.height);
         try {
-            cardImage = ImageIO.read(GUIConsts.gCard.getFile(cardName));
+            cardImage = ImageIO.read(GUIConfigLoader.gCard.getFile(cardName));
         } catch (IOException e) {
 
         }
@@ -58,7 +57,7 @@ public class GCard {
         return false;
     }
 protected File getImageFile(){
-        return GUIConsts.gCard.getFile(cardName);
+        return GUIConfigLoader.gCard.getFile(cardName);
 }
 
     public Dimension getCardDimension() {

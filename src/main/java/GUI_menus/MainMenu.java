@@ -1,6 +1,6 @@
 package GUI_menus;
 
-import GUI_components.GUIConsts;
+import GUI_components.GUIConfigLoader;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -24,7 +24,7 @@ public class MainMenu extends GameMenu {
 
     private void initMenu() {
         setLayout(null);
-        setBounds(GUIConsts.mainMenu.menuBounds);
+        setBounds(GUIConfigLoader.mainMenu.menuBounds);
 
     }
 
@@ -32,32 +32,32 @@ public class MainMenu extends GameMenu {
         actions = new Actions();
 
         playButton = new JButton("Play");
-        playButton.setBounds(GUIConsts.mainMenu.playButton_bounds);
+        playButton.setBounds(GUIConfigLoader.mainMenu.playButton_bounds);
         playButton.addActionListener(actions);
         add(playButton);
 
         storeButton = new JButton("Store");
-        storeButton.setBounds(GUIConsts.mainMenu.storeButton_bounds);
+        storeButton.setBounds(GUIConfigLoader.mainMenu.storeButton_bounds);
         storeButton.addActionListener(actions);
         add(storeButton);
 
         statusButton = new JButton("Status");
-        statusButton.setBounds(GUIConsts.mainMenu.statusButton_bounds);
+        statusButton.setBounds(GUIConfigLoader.mainMenu.statusButton_bounds);
         statusButton.addActionListener(actions);
         add(statusButton);
 
         collectionsButton = new JButton("Collections");
-        collectionsButton.setBounds(GUIConsts.mainMenu.collectionsButton_bounds);
+        collectionsButton.setBounds(GUIConfigLoader.mainMenu.collectionsButton_bounds);
         collectionsButton.addActionListener(actions);
         add(collectionsButton);
 
         settingsButton = new JButton("Settings");
-        settingsButton.setBounds(GUIConsts.mainMenu.settingsButton_bounds);
+        settingsButton.setBounds(GUIConfigLoader.mainMenu.settingsButton_bounds);
         settingsButton.addActionListener(actions);
         add(settingsButton);
 
         exitButton = new JButton("Quit");
-        exitButton.setBounds(GUIConsts.mainMenu.exitButton_bounds);
+        exitButton.setBounds(GUIConfigLoader.mainMenu.exitButton_bounds);
         exitButton.addActionListener(actions);
         add(exitButton);
 
@@ -73,8 +73,8 @@ public class MainMenu extends GameMenu {
 
     private void paintGraphics(Graphics2D g2d) {
         try {
-            BufferedImage backgroundImage = ImageIO.read(GUIConsts.mainMenu.background_image);
-            g2d.drawImage(backgroundImage, 0, 0, GUIConsts.mainMenu.menuBounds.width, GUIConsts.mainMenu.menuBounds.height, null);
+            BufferedImage backgroundImage = ImageIO.read(GUIConfigLoader.mainMenu.background_image);
+            g2d.drawImage(backgroundImage, 0, 0, GUIConfigLoader.mainMenu.menuBounds.width, GUIConfigLoader.mainMenu.menuBounds.height, null);
 
         } catch (IOException e) {
 

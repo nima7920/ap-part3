@@ -2,7 +2,7 @@ package GUI_menus;
 
 import GUI_components.GCard;
 import GUI_components.GHero;
-import GUI_components.GUIConsts;
+import GUI_components.GUIConfigLoader;
 import GUI_components.Message;
 
 import javax.imageio.ImageIO;
@@ -39,9 +39,9 @@ public class CollectionsMenu extends GameMenu {
     // sets the bounds and other properties of the menu
     private void initMenu() {
         setLayout(null);
-        setBounds(GUIConsts.collectionsMenu.menuBounds);
-        setSize(GUIConsts.collectionsMenu.menuSize);
-        setPreferredSize(GUIConsts.collectionsMenu.menuSize);
+        setBounds(GUIConfigLoader.collectionsMenu.menuBounds);
+        setSize(GUIConfigLoader.collectionsMenu.menuSize);
+        setPreferredSize(GUIConfigLoader.collectionsMenu.menuSize);
         initButtons();
         initPanels();
 
@@ -49,22 +49,22 @@ public class CollectionsMenu extends GameMenu {
 
     private void initButtons() {
         allCardsButton = new JButton("All Cards");
-        allCardsButton.setBounds(GUIConsts.collectionsMenu.allCardsButton_bounds);
+        allCardsButton.setBounds(GUIConfigLoader.collectionsMenu.allCardsButton_bounds);
         allCardsButton.addActionListener(actions);
         add(allCardsButton);
 
         decksButton = new JButton("Decks");
-        decksButton.setBounds(GUIConsts.collectionsMenu.decksButton_bounds);
+        decksButton.setBounds(GUIConfigLoader.collectionsMenu.decksButton_bounds);
         decksButton.addActionListener(actions);
         add(decksButton);
 
         backButton = new JButton("Back");
-        backButton.setBounds(GUIConsts.collectionsMenu.backButton_bounds);
+        backButton.setBounds(GUIConfigLoader.collectionsMenu.backButton_bounds);
         backButton.addActionListener(actions);
         add(backButton);
 
         exitButton = new JButton("Exit");
-        exitButton.setBounds(GUIConsts.collectionsMenu.exitButton_bounds);
+        exitButton.setBounds(GUIConfigLoader.collectionsMenu.exitButton_bounds);
         exitButton.addActionListener(actions);
         add(exitButton);
 
@@ -91,8 +91,8 @@ public class CollectionsMenu extends GameMenu {
 
     private void paintGraphics(Graphics2D g2d) {
         try {
-            BufferedImage backgroundImage = ImageIO.read(GUIConsts.collectionsMenu.background_image);
-            g2d.drawImage(backgroundImage, 0, 0, GUIConsts.collectionsMenu.menuBounds.width, GUIConsts.collectionsMenu.menuBounds.height, null);
+            BufferedImage backgroundImage = ImageIO.read(GUIConfigLoader.collectionsMenu.background_image);
+            g2d.drawImage(backgroundImage, 0, 0, GUIConfigLoader.collectionsMenu.menuBounds.width, GUIConfigLoader.collectionsMenu.menuBounds.height, null);
 
         } catch (IOException e) {
 
@@ -108,11 +108,11 @@ public class CollectionsMenu extends GameMenu {
 
         public PalettePanel(String buttonText) {
             setLayout(null);
-            setBounds(GUIConsts.collectionsMenu.palettePanel_bounds);
-            setBorder(GUIConsts.collectionsMenu.palettePanel_border);
+            setBounds(GUIConfigLoader.collectionsMenu.palettePanel_bounds);
+            setBorder(GUIConfigLoader.collectionsMenu.palettePanel_border);
             setOpaque(false);
             paletteButton = new JButton(buttonText);
-            paletteButton.setBounds(GUIConsts.collectionsMenu.palettePanelButton_bounds);
+            paletteButton.setBounds(GUIConfigLoader.collectionsMenu.palettePanelButton_bounds);
             add(paletteButton);
         }
 
@@ -125,7 +125,7 @@ public class CollectionsMenu extends GameMenu {
             if (paletteCard.equals("")) {
                 paletteGCard = null;
             } else {
-                paletteGCard = new GCard(GUIConsts.collectionsMenu.paletteGCard_size, paletteCard, GUIConsts.collectionsMenu.paletteGCard_point);
+                paletteGCard = new GCard(GUIConfigLoader.collectionsMenu.paletteGCard_size, paletteCard, GUIConfigLoader.collectionsMenu.paletteGCard_point);
             }
             repaint();
         }
@@ -165,7 +165,7 @@ public class CollectionsMenu extends GameMenu {
             this.setShowcaseCards(cards);
             showcaseGCards = new ArrayList<>();
             for (int i = 0; i < cards.size(); i++) {
-                GCard gCard = new GCard(GUIConsts.collectionsMenu.showcaseImage_size, cards.get(i), cardPos(i));
+                GCard gCard = new GCard(GUIConfigLoader.collectionsMenu.showcaseImage_size, cards.get(i), cardPos(i));
                 gCard.setLocked(isLocked);
                 showcaseGCards.add(gCard);
             }
@@ -193,7 +193,7 @@ public class CollectionsMenu extends GameMenu {
                     for (int i = 0; i < showcaseGCards.size(); i++) {
                         showcaseGCards.get(i).render(g2d);
                     }
-                    int x = showcaseGCards.get(showcaseGCards.size() - 1).getyPos() + GUIConsts.collectionsMenu.showcaseImage_size.height + 20;
+                    int x = showcaseGCards.get(showcaseGCards.size() - 1).getyPos() + GUIConfigLoader.collectionsMenu.showcaseImage_size.height + 20;
                     updateSize(x);
                 }
             }
@@ -207,9 +207,9 @@ public class CollectionsMenu extends GameMenu {
         private Point cardPos(int i) {
             int column = i % rowLength, row = i / rowLength;
             int x = horizontalAlign +
-                    column * (GUIConsts.collectionsMenu.showcaseImage_size.width + horizontalAlign);
+                    column * (GUIConfigLoader.collectionsMenu.showcaseImage_size.width + horizontalAlign);
             int y = verticalAlign +
-                    row * (GUIConsts.collectionsMenu.showcaseImage_size.height + verticalAlign);
+                    row * (GUIConfigLoader.collectionsMenu.showcaseImage_size.height + verticalAlign);
             return new Point(x, y);
         }
 
@@ -250,8 +250,8 @@ public class CollectionsMenu extends GameMenu {
 
         public AllCardsPanel() {
             setLayout(null);
-            setBounds(GUIConsts.collectionsMenu.allCardsPanel_bounds);
-            setBorder(GUIConsts.collectionsMenu.panelBorder);
+            setBounds(GUIConfigLoader.collectionsMenu.allCardsPanel_bounds);
+            setBorder(GUIConfigLoader.collectionsMenu.panelBorder);
             setOpaque(false);
             initButtons();
             initComponents();
@@ -261,37 +261,37 @@ public class CollectionsMenu extends GameMenu {
 
         private void initButtons() {
             allButton = new JButton("All");
-            allButton.setBounds(GUIConsts.collectionsMenu.allButton_bounds);
+            allButton.setBounds(GUIConfigLoader.collectionsMenu.allButton_bounds);
             allButton.addActionListener(actions);
             add(allButton);
 
             neutralButton = new JButton("Neutral");
-            neutralButton.setBounds(GUIConsts.collectionsMenu.neutralButton_bounds);
+            neutralButton.setBounds(GUIConfigLoader.collectionsMenu.neutralButton_bounds);
             neutralButton.addActionListener(actions);
             add(neutralButton);
 
             mageButton = new JButton("Mage");
-            mageButton.setBounds(GUIConsts.collectionsMenu.mageButton_bounds);
+            mageButton.setBounds(GUIConfigLoader.collectionsMenu.mageButton_bounds);
             mageButton.addActionListener(actions);
             add(mageButton);
 
             rogueButton = new JButton("Rogue");
-            rogueButton.setBounds(GUIConsts.collectionsMenu.rougeButton_bounds);
+            rogueButton.setBounds(GUIConfigLoader.collectionsMenu.rougeButton_bounds);
             rogueButton.addActionListener(actions);
             add(rogueButton);
 
             warlockButton = new JButton("Warlock");
-            warlockButton.setBounds(GUIConsts.collectionsMenu.warlockButton_bounds);
+            warlockButton.setBounds(GUIConfigLoader.collectionsMenu.warlockButton_bounds);
             warlockButton.addActionListener(actions);
             add(warlockButton);
 
             paladinButton = new JButton("Paladin");
-            paladinButton.setBounds(GUIConsts.collectionsMenu.paladinButton_bounds);
+            paladinButton.setBounds(GUIConfigLoader.collectionsMenu.paladinButton_bounds);
             paladinButton.addActionListener(actions);
             add(paladinButton);
 
             hunterButton = new JButton("Hunter");
-            hunterButton.setBounds(GUIConsts.collectionsMenu.hunterButton_bounds);
+            hunterButton.setBounds(GUIConfigLoader.collectionsMenu.hunterButton_bounds);
             hunterButton.addActionListener(actions);
             add(hunterButton);
 
@@ -300,41 +300,41 @@ public class CollectionsMenu extends GameMenu {
         private void initComponents() {
             // search field
             searchField = new JTextField();
-            searchField.setBounds(GUIConsts.collectionsMenu.searchField_bounds);
+            searchField.setBounds(GUIConfigLoader.collectionsMenu.searchField_bounds);
             searchField.getDocument().addDocumentListener(actions);
             add(searchField);
             // slider
             manaSortSlider = new JSlider(SwingConstants.HORIZONTAL, 0, 10, 0);
-            manaSortSlider.setBounds(GUIConsts.collectionsMenu.manaSortSlider_bounds);
+            manaSortSlider.setBounds(GUIConfigLoader.collectionsMenu.manaSortSlider_bounds);
             manaSortSlider.setMinorTickSpacing(1);
             manaSortSlider.setMajorTickSpacing(1);
             manaSortSlider.setPaintLabels(true);
             manaSortSlider.setPaintTicks(true);
             manaSortSlider.addChangeListener(actions);
             manaSortSlider.setOpaque(false);
-            manaSortSlider.setForeground(GUIConsts.generalLabel_foreColor);
+            manaSortSlider.setForeground(GUIConfigLoader.generalLabel_foreColor);
             add(manaSortSlider);
 // radio buttons
             ownedCardsRadio = new JRadioButton("Owned", true);
             notOwnedCardsRadio = new JRadioButton("Not owned");
-            ownedCardsRadio.setBounds(GUIConsts.collectionsMenu.ownedCardsRadio_bounds);
-            notOwnedCardsRadio.setBounds(GUIConsts.collectionsMenu.notOwnedCardsRadio_bounds);
+            ownedCardsRadio.setBounds(GUIConfigLoader.collectionsMenu.ownedCardsRadio_bounds);
+            notOwnedCardsRadio.setBounds(GUIConfigLoader.collectionsMenu.notOwnedCardsRadio_bounds);
             ownedCardsRadio.addActionListener(actions);
             notOwnedCardsRadio.addActionListener(actions);
             ownedCardsRadio.setOpaque(false);
             notOwnedCardsRadio.setOpaque(false);
-            ownedCardsRadio.setForeground(GUIConsts.generalLabel_foreColor);
-            notOwnedCardsRadio.setForeground(GUIConsts.generalLabel_foreColor);
+            ownedCardsRadio.setForeground(GUIConfigLoader.generalLabel_foreColor);
+            notOwnedCardsRadio.setForeground(GUIConfigLoader.generalLabel_foreColor);
             bg = new ButtonGroup();
             bg.add(ownedCardsRadio);
             bg.add(notOwnedCardsRadio);
             add(ownedCardsRadio);
             add(notOwnedCardsRadio);
 // showcase
-            allCardsShowcase = new Showcase(GUIConsts.collectionsMenu.allCardsShowcase_bounds,
-                    GUIConsts.collectionsMenu.allCardsShowcase_rowLength,
-                    GUIConsts.collectionsMenu.allCardsShowcase_hAlign,
-                    GUIConsts.collectionsMenu.allCardsShowcase_vAlign);
+            allCardsShowcase = new Showcase(GUIConfigLoader.collectionsMenu.allCardsShowcase_bounds,
+                    GUIConfigLoader.collectionsMenu.allCardsShowcase_rowLength,
+                    GUIConfigLoader.collectionsMenu.allCardsShowcase_hAlign,
+                    GUIConfigLoader.collectionsMenu.allCardsShowcase_vAlign);
             allCardsShowcase.addAction(actions);
             add(allCardsShowcase);
         }
@@ -362,8 +362,8 @@ public class CollectionsMenu extends GameMenu {
 
         public DecksPanel() {
             setLayout(null);
-            setBorder(GUIConsts.collectionsMenu.panelBorder);
-            setBounds(GUIConsts.collectionsMenu.decksPanel_bounds);
+            setBorder(GUIConfigLoader.collectionsMenu.panelBorder);
+            setBounds(GUIConfigLoader.collectionsMenu.decksPanel_bounds);
             setOpaque(false);
             deckNamesList = new ArrayList<>();
             initButtons();
@@ -373,27 +373,27 @@ public class CollectionsMenu extends GameMenu {
 
         private void initButtons() {
             createDeckButton = new JButton("Create");
-            createDeckButton.setBounds(GUIConsts.collectionsMenu.decksPanel_createButton_bounds);
+            createDeckButton.setBounds(GUIConfigLoader.collectionsMenu.decksPanel_createButton_bounds);
             createDeckButton.addActionListener(actions);
             add(createDeckButton);
 
             deleteDeckButton = new JButton("Delete");
-            deleteDeckButton.setBounds(GUIConsts.collectionsMenu.decksPanel_deleteButton_bounds);
+            deleteDeckButton.setBounds(GUIConfigLoader.collectionsMenu.decksPanel_deleteButton_bounds);
             deleteDeckButton.addActionListener(actions);
             add(deleteDeckButton);
 
             addCardButton = new JButton("Add Card");
-            addCardButton.setBounds(GUIConsts.collectionsMenu.decksPanel_addCardButton_bounds);
+            addCardButton.setBounds(GUIConfigLoader.collectionsMenu.decksPanel_addCardButton_bounds);
             addCardButton.addActionListener(actions);
             add(addCardButton);
 
             changeNameButton = new JButton("Change Name");
-            changeNameButton.setBounds(GUIConsts.collectionsMenu.deckPanel_changeNameButton_bounds);
+            changeNameButton.setBounds(GUIConfigLoader.collectionsMenu.deckPanel_changeNameButton_bounds);
             changeNameButton.addActionListener(actions);
             add(changeNameButton);
 
             setCurrentButton = new JButton("Set Current");
-            setCurrentButton.setBounds(GUIConsts.collectionsMenu.deckPanel_setCurrentButton);
+            setCurrentButton.setBounds(GUIConfigLoader.collectionsMenu.deckPanel_setCurrentButton);
             setCurrentButton.addActionListener(actions);
             add(setCurrentButton);
         }
@@ -401,17 +401,17 @@ public class CollectionsMenu extends GameMenu {
         private void initComponents() {
             // decklist
             decksList = new JList<>();
-            decksList.setBounds(GUIConsts.collectionsMenu.deckList_bounds);
-            decksList.setForeground(GUIConsts.generalLabel_foreColor);
+            decksList.setBounds(GUIConfigLoader.collectionsMenu.deckList_bounds);
+            decksList.setForeground(GUIConfigLoader.generalLabel_foreColor);
             decksList.setOpaque(false);
             decksList.addListSelectionListener(actions);
             add(decksList);
 
             // decksShowcase
-            decksShowcase = new Showcase(GUIConsts.collectionsMenu.decksShowcase_bounds,
-                    GUIConsts.collectionsMenu.decksShowcase_rowLength,
-                    GUIConsts.collectionsMenu.decksShowcase_hAlign,
-                    GUIConsts.collectionsMenu.decksShowcase_vAlign);
+            decksShowcase = new Showcase(GUIConfigLoader.collectionsMenu.decksShowcase_bounds,
+                    GUIConfigLoader.collectionsMenu.decksShowcase_rowLength,
+                    GUIConfigLoader.collectionsMenu.decksShowcase_hAlign,
+                    GUIConfigLoader.collectionsMenu.decksShowcase_vAlign);
             decksShowcase.addAction(actions);
             add(decksShowcase);
 // deckCardRemovePalette
@@ -450,8 +450,8 @@ public class CollectionsMenu extends GameMenu {
 
         public AddCardPanel() {
             setLayout(null);
-            setBounds(GUIConsts.collectionsMenu.addCardPanel_bounds);
-            setBorder(GUIConsts.collectionsMenu.panelBorder);
+            setBounds(GUIConfigLoader.collectionsMenu.addCardPanel_bounds);
+            setBorder(GUIConfigLoader.collectionsMenu.panelBorder);
             setOpaque(false);
             initComponents();
 
@@ -460,15 +460,15 @@ public class CollectionsMenu extends GameMenu {
         private void initComponents() {
             // back button
             addCardPanelBackButton = new JButton("Back");
-            addCardPanelBackButton.setBounds(GUIConsts.collectionsMenu.addCardPanelBackButton_bounds);
+            addCardPanelBackButton.setBounds(GUIConfigLoader.collectionsMenu.addCardPanelBackButton_bounds);
             addCardPanelBackButton.addActionListener(actions);
             add(addCardPanelBackButton);
 
             // showcase
-            addCardShowcase = new Showcase(GUIConsts.collectionsMenu.addCardShowcase_bounds,
-                    GUIConsts.collectionsMenu.addCardShowcase_rowLength,
-                    GUIConsts.collectionsMenu.addCardShowcase_hAlign,
-                    GUIConsts.collectionsMenu.addCardShowcase_vAlign);
+            addCardShowcase = new Showcase(GUIConfigLoader.collectionsMenu.addCardShowcase_bounds,
+                    GUIConfigLoader.collectionsMenu.addCardShowcase_rowLength,
+                    GUIConfigLoader.collectionsMenu.addCardShowcase_hAlign,
+                    GUIConfigLoader.collectionsMenu.addCardShowcase_vAlign);
             addCardShowcase.addAction(actions);
             add(addCardShowcase);
             // palette
@@ -504,8 +504,8 @@ public class CollectionsMenu extends GameMenu {
         public CreateDeckPanel() {
             setLayout(null);
             setLayout(null);
-            setBounds(GUIConsts.collectionsMenu.createDeckPanel_bounds);
-            setBorder(GUIConsts.collectionsMenu.panelBorder);
+            setBounds(GUIConfigLoader.collectionsMenu.createDeckPanel_bounds);
+            setBorder(GUIConfigLoader.collectionsMenu.panelBorder);
             setOpaque(false);
             addMouseListener(actions);
             initComponents();
@@ -516,44 +516,44 @@ public class CollectionsMenu extends GameMenu {
 
             // labels
             createDeckHeroLabel = new JLabel("Hero Class:Mage");
-            createDeckHeroLabel.setForeground(GUIConsts.generalLabel_foreColor);
-            createDeckHeroLabel.setBounds(GUIConsts.collectionsMenu.createDeckHeroLabel_bounds);
+            createDeckHeroLabel.setForeground(GUIConfigLoader.generalLabel_foreColor);
+            createDeckHeroLabel.setBounds(GUIConfigLoader.collectionsMenu.createDeckHeroLabel_bounds);
             add(createDeckHeroLabel);
 
             createDeckNameLabel = new JLabel("Name:");
-            createDeckNameLabel.setForeground(GUIConsts.generalLabel_foreColor);
-            createDeckNameLabel.setBounds(GUIConsts.collectionsMenu.createDeckNameLabel_bounds);
+            createDeckNameLabel.setForeground(GUIConfigLoader.generalLabel_foreColor);
+            createDeckNameLabel.setBounds(GUIConfigLoader.collectionsMenu.createDeckNameLabel_bounds);
             add(createDeckNameLabel);
 
             // test field
             createDeckNameField = new JTextField();
-            createDeckNameField.setBounds(GUIConsts.collectionsMenu.createDeckNameField_bounds);
+            createDeckNameField.setBounds(GUIConfigLoader.collectionsMenu.createDeckNameField_bounds);
             add(createDeckNameField);
 
             // buttons
             createButton = new JButton("Create");
-            createButton.setBounds(GUIConsts.collectionsMenu.createButton_bounds);
+            createButton.setBounds(GUIConfigLoader.collectionsMenu.createButton_bounds);
             createButton.addActionListener(actions);
             add(createButton);
 
             createDeckBackButton = new JButton("Back");
-            createDeckBackButton.setBounds(GUIConsts.collectionsMenu.createDeckBackButton_bounds);
+            createDeckBackButton.setBounds(GUIConfigLoader.collectionsMenu.createDeckBackButton_bounds);
             createDeckBackButton.addActionListener(actions);
             add(createDeckBackButton);
 
         }
 
         private void initHeroes() {
-            gMage = new GHero(GUIConsts.collectionsMenu.createDeckPanelHero_size,
-                    "Mage", GUIConsts.collectionsMenu.createDeckGMage_point);
-            gRogue = new GHero(GUIConsts.collectionsMenu.createDeckPanelHero_size,
-                    "Rogue", GUIConsts.collectionsMenu.createDeckGRogue_point);
-            gWarlock = new GHero(GUIConsts.collectionsMenu.createDeckPanelHero_size,
-                    "Warlock", GUIConsts.collectionsMenu.createDeckGWarlock_point);
-            gPaladin = new GHero(GUIConsts.collectionsMenu.createDeckPanelHero_size,
-                    "Paladin", GUIConsts.collectionsMenu.createDeckGPaladin_point);
-            gHunter = new GHero(GUIConsts.collectionsMenu.createDeckPanelHero_size,
-                    "Hunter", GUIConsts.collectionsMenu.createDeckGHunter_point);
+            gMage = new GHero(GUIConfigLoader.collectionsMenu.createDeckPanelHero_size,
+                    "Mage", GUIConfigLoader.collectionsMenu.createDeckGMage_point);
+            gRogue = new GHero(GUIConfigLoader.collectionsMenu.createDeckPanelHero_size,
+                    "Rogue", GUIConfigLoader.collectionsMenu.createDeckGRogue_point);
+            gWarlock = new GHero(GUIConfigLoader.collectionsMenu.createDeckPanelHero_size,
+                    "Warlock", GUIConfigLoader.collectionsMenu.createDeckGWarlock_point);
+            gPaladin = new GHero(GUIConfigLoader.collectionsMenu.createDeckPanelHero_size,
+                    "Paladin", GUIConfigLoader.collectionsMenu.createDeckGPaladin_point);
+            gHunter = new GHero(GUIConfigLoader.collectionsMenu.createDeckPanelHero_size,
+                    "Hunter", GUIConfigLoader.collectionsMenu.createDeckGHunter_point);
             repaint();
         }
 

@@ -1,7 +1,5 @@
 package GUI_components;
 
-import GUI_components.GUIConsts;
-
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.event.MouseEvent;
@@ -22,7 +20,7 @@ public class GHero {
         this.yPos = yPos;
         heroBox = new Rectangle(xPos, yPos, heroDimension.width, heroDimension.height);
         try {
-            heroImage = ImageIO.read(GUIConsts.gHero.getFile(heroName));
+            heroImage = ImageIO.read(GUIConfigLoader.gHero.getFile(heroName));
         } catch (IOException e) {
 
         }
@@ -35,7 +33,7 @@ public class GHero {
         this.yPos = O.y;
         heroBox = new Rectangle(xPos, yPos, heroDimension.width, heroDimension.height);
         try {
-            heroImage = ImageIO.read(GUIConsts.gHero.getFile(heroName));
+            heroImage = ImageIO.read(GUIConfigLoader.gHero.getFile(heroName));
         } catch (IOException e) {
 
         }

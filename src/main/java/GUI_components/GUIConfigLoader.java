@@ -1,13 +1,49 @@
 package GUI_components;
 
+import Config.GUIConfigs;
+
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 import java.io.File;
 
 // a class to hold the constant values of the GUI objects
-public class GUIConsts {
+public class GUIConfigLoader {
 
+    // config loader codes
+    private String menuName;
+    private GUIConfigs guiConfigs;
+
+    public GUIConfigLoader(String menuName){
+        this.menuName=menuName+".properties";
+        guiConfigs=new GUIConfigs();
+    }
+    public  Rectangle getBounds(String propertyName){
+        return guiConfigs.getBounds(menuName,propertyName);
+    }
+    public int getInt(String propertyName){
+        return guiConfigs.getInt(menuName,propertyName);
+    }
+
+    public String getString(String propertyName){
+        return guiConfigs.getString(menuName,propertyName);
+    }
+
+    public Dimension getSize(String propertyName) {
+        return guiConfigs.getSize(menuName,propertyName);
+    }
+
+    public Point getPoint(String propertyName) {
+        return guiConfigs.getPoint(menuName,propertyName);
+    }
+
+    public Color getColor(String propertyName){
+        return guiConfigs.getColor(menuName,propertyName);
+    }
+    public Font getFont(String propertyName){
+        return guiConfigs.getFont(menuName,propertyName);
+    }
+// hard code constant codes
 
     // general constants
     public static final Dimension menuSize = new Dimension(1200, 640);
