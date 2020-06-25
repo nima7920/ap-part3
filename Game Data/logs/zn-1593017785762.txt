@@ -1,0 +1,8 @@
+Username : zn
+Password : zn13792000
+Created At : 2020/06/24 21:26:25
+
+Menu:Collections At: 2020/06/24 21:26:28
+Back button:back to main menu At: 2020/06/24 21:26:31
+exiting game At: 2020/06/24 21:26:32
+
